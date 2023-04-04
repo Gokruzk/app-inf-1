@@ -1,7 +1,7 @@
 ﻿
 using ConAppAreaTrian;
 
-Console.WriteLine("CÁLCULO DE ÁREA DE TRIÁNGULO");
+Console.WriteLine("CÁLCULAR ÁREA DE TRIÁNGULO");
 int baseT, altura;
 Console.Write("Ingrese la base: ");
 baseT = int.Parse(Console.ReadLine());
