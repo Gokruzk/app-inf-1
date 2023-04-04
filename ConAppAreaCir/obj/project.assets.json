@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SOFTWARE.FIEEISL00N00\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\nigel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SOFTWARE.FIEEISL00N00\\Downloads\\ConAppAreaCir\\ConAppAreaCir.csproj",
+      "projectUniqueName": "C:\\Users\\nigel\\workspace\\app-inf-1-csharp\\ConAppAreaCir\\ConAppAreaCir.csproj",
       "projectName": "ConAppAreaCir",
-      "projectPath": "C:\\Users\\SOFTWARE.FIEEISL00N00\\Downloads\\ConAppAreaCir\\ConAppAreaCir.csproj",
-      "packagesPath": "C:\\Users\\SOFTWARE.FIEEISL00N00\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SOFTWARE.FIEEISL00N00\\Downloads\\ConAppAreaCir\\obj\\",
+      "projectPath": "C:\\Users\\nigel\\workspace\\app-inf-1-csharp\\ConAppAreaCir\\ConAppAreaCir.csproj",
+      "packagesPath": "C:\\Users\\nigel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nigel\\workspace\\app-inf-1-csharp\\ConAppAreaCir\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\SOFTWARE.FIEEISL00N00\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\nigel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -65,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

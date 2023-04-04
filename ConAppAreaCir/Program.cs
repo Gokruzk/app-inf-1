@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using ConAppAreaCir;
+
 namespace ConAppAreaCirculo
 {
     class Program
@@ -9,9 +11,10 @@ namespace ConAppAreaCirculo
             Console.Write("Ingrese radio círculo: ");
             int Radio = int.Parse(Console.ReadLine());
 
-            ClAreaCircunf
+            ClAreaCirc obj = new ClAreaCirc(Radio);
+            
 
-            Console.WriteLine("El área calculada del círculo es: {0}");
+            Console.WriteLine("El área calculada del círculo es: {0}", obj.CalcArea());
             
         }
     }
