@@ -7,7 +7,7 @@ namespace ConAppAreaCirculo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("CÁLCULO ÁREA CÍRCULO");
+            Console.WriteLine("CÁLCULO ÁREA DE CÍRCULO");
             Console.Write("Ingrese radio círculo: ");
             int Radio = int.Parse(Console.ReadLine());
 
