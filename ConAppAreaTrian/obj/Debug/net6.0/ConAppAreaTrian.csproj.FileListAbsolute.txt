@@ -1,0 +1,15 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\bin\Debug\net6.0\ConAppAreaTrian.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\bin\Debug\net6.0\ConAppAreaTrian.deps.json
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\bin\Debug\net6.0\ConAppAreaTrian.runtimeconfig.json
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\bin\Debug\net6.0\ConAppAreaTrian.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\bin\Debug\net6.0\ConAppAreaTrian.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\obj\Debug\net6.0\ConAppAreaTrian.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\obj\Debug\net6.0\ConAppAreaTrian.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\obj\Debug\net6.0\ConAppAreaTrian.AssemblyInfoInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\obj\Debug\net6.0\ConAppAreaTrian.AssemblyInfo.cs
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\obj\Debug\net6.0\ConAppAreaTrian.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\obj\Debug\net6.0\ConAppAreaTrian.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\obj\Debug\net6.0\refint\ConAppAreaTrian.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\obj\Debug\net6.0\ConAppAreaTrian.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\obj\Debug\net6.0\ConAppAreaTrian.genruntimeconfig.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppAreaTrian\obj\Debug\net6.0\ref\ConAppAreaTrian.dll
