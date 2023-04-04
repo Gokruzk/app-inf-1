@@ -1,0 +1,15 @@
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\bin\Debug\net6.0\ConAppMsg.exe
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\bin\Debug\net6.0\ConAppMsg.deps.json
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\bin\Debug\net6.0\ConAppMsg.runtimeconfig.json
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\bin\Debug\net6.0\ConAppMsg.dll
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\bin\Debug\net6.0\ConAppMsg.pdb
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\obj\Debug\net6.0\ConAppMsg.csproj.AssemblyReference.cache
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\obj\Debug\net6.0\ConAppMsg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\obj\Debug\net6.0\ConAppMsg.AssemblyInfoInputs.cache
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\obj\Debug\net6.0\ConAppMsg.AssemblyInfo.cs
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\obj\Debug\net6.0\ConAppMsg.csproj.CoreCompileInputs.cache
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\obj\Debug\net6.0\ConAppMsg.dll
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\obj\Debug\net6.0\refint\ConAppMsg.dll
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\obj\Debug\net6.0\ConAppMsg.pdb
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\obj\Debug\net6.0\ConAppMsg.genruntimeconfig.cache
+C:\Users\SOFTWARE.FIEEISL00N00\Downloads\ConAppMsg\obj\Debug\net6.0\ref\ConAppMsg.dll
