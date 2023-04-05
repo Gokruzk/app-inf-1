@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConAppAreaCir
 {
-    public class ClAreaCirc
+    internal class ClAreaCirc
     {
         int radio;
         public ClAreaCirc(int r)
