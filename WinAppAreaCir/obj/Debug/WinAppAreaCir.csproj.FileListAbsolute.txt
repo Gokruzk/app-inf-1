@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\bin\Debug\WinAppAreaCir.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\bin\Debug\WinAppAreaCir.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\bin\Debug\WinAppAreaCir.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\obj\Debug\WinAppAreaCir.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\obj\Debug\WinAppAreaCir.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\obj\Debug\WinAppAreaCir.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\obj\Debug\WinAppAreaCir.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\obj\Debug\WinAppAreaCir.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\obj\Debug\WinAppAreaCir.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\obj\Debug\WinAppAreaCir.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppAreaCir\obj\Debug\WinAppAreaCir.pdb
