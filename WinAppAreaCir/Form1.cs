@@ -20,6 +20,7 @@ namespace WinAppAreaCir
         private void Form1_Load(object sender, EventArgs e)
         {
             TxtRadio.Text = "0";
+            LblRes.Visible = false;
         }
 
         private void BtnSalir_Click(object sender, EventArgs e)
@@ -29,6 +30,7 @@ namespace WinAppAreaCir
 
         private void BtnCalc_Click(object sender, EventArgs e)
         {
+            LblRes.Visible = true;
             double Radio = double.Parse(TxtRadio.Text);
             ClAreaCir obj = new ClAreaCir(Radio);
             //LblRadio.Text = "Área de la circunferencia = ";

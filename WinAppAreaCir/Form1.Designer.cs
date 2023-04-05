@@ -63,7 +63,7 @@
             this.LblRadio.AutoSize = true;
             this.LblRadio.BackColor = System.Drawing.Color.Transparent;
             this.LblRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRadio.Location = new System.Drawing.Point(98, 133);
+            this.LblRadio.Location = new System.Drawing.Point(98, 139);
             this.LblRadio.Name = "LblRadio";
             this.LblRadio.Size = new System.Drawing.Size(236, 24);
             this.LblRadio.TabIndex = 3;
@@ -105,10 +105,11 @@
             this.LblRes.AutoSize = true;
             this.LblRes.BackColor = System.Drawing.Color.Transparent;
             this.LblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes.Location = new System.Drawing.Point(337, 133);
+            this.LblRes.Location = new System.Drawing.Point(337, 139);
             this.LblRes.Name = "LblRes";
-            this.LblRes.Size = new System.Drawing.Size(0, 24);
+            this.LblRes.Size = new System.Drawing.Size(50, 24);
             this.LblRes.TabIndex = 7;
+            this.LblRes.Text = "Area";
             // 
             // BtnCalc
             // 
