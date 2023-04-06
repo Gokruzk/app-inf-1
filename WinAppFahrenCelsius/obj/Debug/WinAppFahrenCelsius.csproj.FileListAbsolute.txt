@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\obj\Debug\WinAppFahrenCelsius.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\obj\Debug\WinAppFahrenCelsius.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\obj\Debug\WinAppFahrenCelsius.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\obj\Debug\WinAppFahrenCelsius.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\obj\Debug\WinAppFahrenCelsius.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\obj\Debug\WinAppFahrenCelsius.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\bin\Debug\WinAppFahrenCelsius.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\bin\Debug\WinAppFahrenCelsius.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\bin\Debug\WinAppFahrenCelsius.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\obj\Debug\WinAppFahrenCelsius.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFahrenCelsius\obj\Debug\WinAppFahrenCelsius.pdb
