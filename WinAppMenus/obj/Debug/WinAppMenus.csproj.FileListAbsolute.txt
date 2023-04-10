@@ -1,0 +1,12 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\bin\Debug\WinAppMenus.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\bin\Debug\WinAppMenus.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\bin\Debug\WinAppMenus.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\obj\Debug\WinAppMenus.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\obj\Debug\WinAppMenus.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\obj\Debug\WinAppMenus.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\obj\Debug\WinAppMenus.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\obj\Debug\WinAppMenus.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\obj\Debug\WinAppMenus.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\obj\Debug\WinAppMenus.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\obj\Debug\WinAppMenus.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenus\obj\Debug\WinAppMenus.FrmCaraFeliz.resources
