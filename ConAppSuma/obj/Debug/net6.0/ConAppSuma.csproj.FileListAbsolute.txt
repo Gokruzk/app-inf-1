@@ -1,0 +1,15 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\bin\Debug\net6.0\ConAppSuma.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\bin\Debug\net6.0\ConAppSuma.deps.json
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\bin\Debug\net6.0\ConAppSuma.runtimeconfig.json
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\bin\Debug\net6.0\ConAppSuma.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\bin\Debug\net6.0\ConAppSuma.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\obj\Debug\net6.0\ConAppSuma.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\obj\Debug\net6.0\ConAppSuma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\obj\Debug\net6.0\ConAppSuma.AssemblyInfoInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\obj\Debug\net6.0\ConAppSuma.AssemblyInfo.cs
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\obj\Debug\net6.0\ConAppSuma.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\obj\Debug\net6.0\ConAppSuma.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\obj\Debug\net6.0\refint\ConAppSuma.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\obj\Debug\net6.0\ConAppSuma.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\obj\Debug\net6.0\ConAppSuma.genruntimeconfig.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\ConAppSuma\obj\Debug\net6.0\ref\ConAppSuma.dll
