@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\bin\Debug\WinAppSaludo.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\bin\Debug\WinAppSaludo.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\bin\Debug\WinAppSaludo.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\obj\Debug\WinAppSaludo.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\obj\Debug\WinAppSaludo.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\obj\Debug\WinAppSaludo.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\obj\Debug\WinAppSaludo.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\obj\Debug\WinAppSaludo.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\obj\Debug\WinAppSaludo.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\obj\Debug\WinAppSaludo.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSaludo\obj\Debug\WinAppSaludo.pdb
