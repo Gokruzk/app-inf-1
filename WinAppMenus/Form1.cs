@@ -46,7 +46,68 @@ namespace WinAppMenus
                     Cursor = Cursors.Default;
                     break;
                 case 4:
+                    Cursor = Cursors.Hand;
+                    break;
+                case 5:
+                    Cursor = Cursors.Help;
+                    break;
+                case 6:
+                    Cursor = Cursors.HSplit;
+                    break;
+                case 7:
+                    Cursor = Cursors.IBeam;
+                    break;
+                case 8:
+                    Cursor = Cursors.No;
+                    break;
+                case 9:
+                    Cursor = Cursors.NoMove2D;
+                    break;
+                case 10:
+                    Cursor = Cursors.NoMoveHoriz;
+                    break;
+                case 11:
+                    Cursor = Cursors.NoMoveVert;
+                    break;
+                case 12:
+                    Cursor = Cursors.PanEast;
+                    break;
+                case 13:
+                    Cursor = Cursors.PanNE;
+                    break;
+                case 14:
+                    Cursor = Cursors.PanNorth;
+                    break;
+                case 15:
                     Cursor = Cursors.PanSouth;
+                    break;
+                case 16:
+                    Cursor = Cursors.PanSW;
+                    break;
+                case 17:
+                    Cursor = Cursors.PanWest;
+                    break;
+                case 18: Cursor = Cursors.SizeAll; break;
+                case 19:
+                    Cursor = Cursors.SizeNESW;
+                    break;
+                case 20:
+                    Cursor = Cursors.SizeNS;
+                    break;
+                case 21:
+                    Cursor = Cursors.SizeNWSE;
+                    break;
+                case 22:
+                    Cursor = Cursors.SizeWE;
+                    break;
+                case 23:
+                    Cursor = Cursors.UpArrow;
+                    break;
+                case 24:
+                    Cursor = Cursors.VSplit;
+                    break;
+                case 25:
+                    Cursor = Cursors.WaitCursor;
                     break;
             }
         }

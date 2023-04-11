@@ -92,7 +92,28 @@
             "Arrow",
             "Cross",
             "Default",
-            "PanSouth"});
+            "Hand",
+            "Help",
+            "HSplit",
+            "IBeam",
+            "No",
+            "NoMove2D",
+            "NoMoveHoriz",
+            "NoMoveVert",
+            "PanEast",
+            "PanNE",
+            "PanNorth",
+            "PanSouth",
+            "PanSW",
+            "PanWest",
+            "SizeAll",
+            "SizeNESW",
+            "SizeNS",
+            "SizeNWSE",
+            "SizeWE",
+            "UpArrow",
+            "VSplit",
+            "WaitCursor"});
             this.CmboxCursor.Location = new System.Drawing.Point(145, 94);
             this.CmboxCursor.Name = "CmboxCursor";
             this.CmboxCursor.Size = new System.Drawing.Size(121, 21);
@@ -168,7 +189,7 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -184,13 +205,13 @@
             // alTextoToolStripMenuItem
             // 
             this.alTextoToolStripMenuItem.Name = "alTextoToolStripMenuItem";
-            this.alTextoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alTextoToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.alTextoToolStripMenuItem.Text = "Al texto";
             // 
             // alFondoToolStripMenuItem
             // 
             this.alFondoToolStripMenuItem.Name = "alFondoToolStripMenuItem";
-            this.alFondoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alFondoToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.alFondoToolStripMenuItem.Text = "Al fondo";
             // 
             // fechaToolStripMenuItem
@@ -204,7 +225,7 @@
             // horaToolStripMenuItem
             // 
             this.horaToolStripMenuItem.Name = "horaToolStripMenuItem";
-            this.horaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.horaToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.horaToolStripMenuItem.Text = "Hora";
             // 
             // ayudaToolStripMenuItem
@@ -218,7 +239,7 @@
             // incógnitaToolStripMenuItem
             // 
             this.incógnitaToolStripMenuItem.Name = "incógnitaToolStripMenuItem";
-            this.incógnitaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.incógnitaToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.incógnitaToolStripMenuItem.Text = "Incógnita";
             // 
             // acercaDeToolStripMenuItem
