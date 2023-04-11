@@ -24,7 +24,7 @@ namespace WinAppSaludo
 
         private void BtnSaludar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola " + TxtName.Text + " " + TxtLastName.Text + ", tienes " + TxtEdad.Text + "/n Vives en" + TxtAdress.Text);
+            MessageBox.Show("Hola " + TxtName.Text + " " + TxtLastName.Text + ", tienes " + TxtEdad.Text + "\n Vives en" + TxtAdress.Text);
         }
     }
 }
