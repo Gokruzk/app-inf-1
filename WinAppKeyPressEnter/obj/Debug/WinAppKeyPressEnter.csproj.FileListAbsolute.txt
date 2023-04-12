@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\bin\Debug\WinAppKeyPressEnter.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\bin\Debug\WinAppKeyPressEnter.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\bin\Debug\WinAppKeyPressEnter.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\obj\Debug\WinAppKeyPressEnter.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\obj\Debug\WinAppKeyPressEnter.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\obj\Debug\WinAppKeyPressEnter.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\obj\Debug\WinAppKeyPressEnter.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\obj\Debug\WinAppKeyPressEnter.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\obj\Debug\WinAppKeyPressEnter.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\obj\Debug\WinAppKeyPressEnter.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppKeyPressEnter\obj\Debug\WinAppKeyPressEnter.pdb
