@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\bin\Debug\WinAppVoice.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\bin\Debug\WinAppVoice.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\bin\Debug\WinAppVoice.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\obj\Debug\WinAppVoice.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\obj\Debug\WinAppVoice.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\obj\Debug\WinAppVoice.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\obj\Debug\WinAppVoice.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\obj\Debug\WinAppVoice.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\obj\Debug\WinAppVoice.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\obj\Debug\WinAppVoice.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVoice\obj\Debug\WinAppVoice.pdb
