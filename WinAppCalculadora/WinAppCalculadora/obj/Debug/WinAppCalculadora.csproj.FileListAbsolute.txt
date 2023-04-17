@@ -1,0 +1,33 @@
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\bin\Debug\WinAppCalculadora.exe.config
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\bin\Debug\WinAppCalculadora.exe
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\bin\Debug\WinAppCalculadora.pdb
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.AssemblyReference.cache
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.Form1.resources
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.Properties.Resources.resources
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.GenerateResource.cache
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.exe
+C:\Users\Andres\OneDrive - ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO\Documentos\Quinto Semestre\Aplicaciones Informáticas I\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.pdb
+D:\WinAppCalculadora\WinAppCalculadora\bin\Debug\WinAppCalculadora.exe.config
+D:\WinAppCalculadora\WinAppCalculadora\bin\Debug\WinAppCalculadora.exe
+D:\WinAppCalculadora\WinAppCalculadora\bin\Debug\WinAppCalculadora.pdb
+D:\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.AssemblyReference.cache
+D:\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.SuggestedBindingRedirects.cache
+D:\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.Form1.resources
+D:\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.Properties.Resources.resources
+D:\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.GenerateResource.cache
+D:\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.CoreCompileInputs.cache
+D:\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.exe
+D:\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\bin\Debug\WinAppCalculadora.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\bin\Debug\WinAppCalculadora.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\bin\Debug\WinAppCalculadora.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalculadora\WinAppCalculadora\obj\Debug\WinAppCalculadora.pdb
