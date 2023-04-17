@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\bin\Debug\WinAppTryCatcg.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\bin\Debug\WinAppTryCatcg.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\bin\Debug\WinAppTryCatcg.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\obj\Debug\WinAppTryCatcg.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\obj\Debug\WinAppTryCatcg.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\obj\Debug\WinAppTryCatcg.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\obj\Debug\WinAppTryCatcg.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\obj\Debug\WinAppTryCatcg.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\obj\Debug\WinAppTryCatcg.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\obj\Debug\WinAppTryCatcg.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppTryCatcg\obj\Debug\WinAppTryCatcg.pdb
