@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\bin\Debug\WinAppDragAndDrop.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\bin\Debug\WinAppDragAndDrop.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\bin\Debug\WinAppDragAndDrop.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\obj\Debug\WinAppDragAndDrop.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\obj\Debug\WinAppDragAndDrop.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\obj\Debug\WinAppDragAndDrop.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\obj\Debug\WinAppDragAndDrop.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\obj\Debug\WinAppDragAndDrop.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\obj\Debug\WinAppDragAndDrop.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\obj\Debug\WinAppDragAndDrop.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppDragAndDrop\obj\Debug\WinAppDragAndDrop.pdb
