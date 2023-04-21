@@ -88,11 +88,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WinAppCalc\WinAppCalc.csproj">
-      <Project>{7b69fd3d-daf6-4fed-a7e9-0f700a6b5707}</Project>
-      <Name>WinAppCalc</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
