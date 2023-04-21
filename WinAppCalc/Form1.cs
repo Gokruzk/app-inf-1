@@ -27,10 +27,6 @@ namespace WinAppCalc
             {
                 TxtResult.Text += 0;
             }
-            if (id == 6)
-            {
-                TxtResult.Text += 0;
-            }
             if (id == 7)
             {
                 TxtResult.Text += 0;
@@ -60,11 +56,11 @@ namespace WinAppCalc
         }
         private void Btn1_Click(object sender, EventArgs e)
         {
-            if (id == 5)
+            if (TxtBase.Visible == true)
             {
-                TxtResult.Text += 1;
+                TxtBase.Text += 1;
             }
-            if (id == 6)
+            if (id == 5)
             {
                 TxtResult.Text += 1;
             }
@@ -98,10 +94,6 @@ namespace WinAppCalc
         private void Btn2_Click(object sender, EventArgs e)
         {
             if (id == 5)
-            {
-                TxtResult.Text += 2;
-            }
-            if (id == 6)
             {
                 TxtResult.Text += 2;
             }
@@ -139,10 +131,6 @@ namespace WinAppCalc
             {
                 TxtResult.Text += 3;
             }
-            if (id == 6)
-            {
-                TxtResult.Text += 3;
-            }
             if (id == 7)
             {
                 TxtResult.Text += 3;
@@ -174,10 +162,6 @@ namespace WinAppCalc
         private void Btn4_Click(object sender, EventArgs e)
         {
             if (id == 5)
-            {
-                TxtResult.Text += 4;
-            }
-            if (id == 6)
             {
                 TxtResult.Text += 4;
             }
@@ -215,10 +199,6 @@ namespace WinAppCalc
             {
                 TxtResult.Text += 5;
             }
-            if (id == 6)
-            {
-                TxtResult.Text += 5;
-            }
             if (id == 7)
             {
                 TxtResult.Text += 5;
@@ -250,10 +230,6 @@ namespace WinAppCalc
         private void Btn6_Click(object sender, EventArgs e)
         {
             if (id == 5)
-            {
-                TxtResult.Text += 6;
-            }
-            if (id == 6)
             {
                 TxtResult.Text += 6;
             }
@@ -291,10 +267,6 @@ namespace WinAppCalc
             {
                 TxtResult.Text += 7;
             }
-            if (id == 6)
-            {
-                TxtResult.Text += 7;
-            }
             if (id == 7)
             {
                 TxtResult.Text += 7;
@@ -329,10 +301,6 @@ namespace WinAppCalc
             {
                 TxtResult.Text += 8;
             }
-            if (id == 6)
-            {
-                TxtResult.Text += 8;
-            }
             if (id == 7)
             {
                 TxtResult.Text += 8;
@@ -364,10 +332,6 @@ namespace WinAppCalc
         private void Btn10_Click(object sender, EventArgs e)
         {
             if (id == 5)
-            {
-                TxtResult.Text += 9;
-            }
-            if (id == 6)
             {
                 TxtResult.Text += 9;
             }
@@ -485,6 +449,8 @@ namespace WinAppCalc
             {
                 if (TxtResult.Text == "" && id != 5)
                 {
+                    BtnMin.Visible = false;
+                    BtnBack.Visible = true;
                     if (id != 0 || TxtAux.Text == "")
                     {
                         id = 5;
@@ -497,6 +463,8 @@ namespace WinAppCalc
                 }
                 else
                 {
+                    BtnMin.Visible = true;
+                    BtnBack.Visible = false;
                     TxtNumbers.Text += Math.Truncate(Math.Sqrt(double.Parse(TxtResult.Text)) * 10000) / 10000;
                     BtnRaiz.UseVisualStyleBackColor = false;
                     TxtAux.Text = TxtResult.Text;
@@ -560,7 +528,68 @@ namespace WinAppCalc
 
         private void BtnPot_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Funcionalidad no lista", "En desarrollo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            try
+            {
+                if (TxtResult.Text == "" && id != 6)
+                {
+                    if (id != 0 || TxtAux.Text == "")
+                    {
+                        BtnLog.Visible = false;
+                        BtnLn.Visible = false;
+                        TxtBase.Visible = true;
+                        TxtExp.Visible = true;
+                        BtnBack.Visible = true;
+                        BtnMin.Visible = false;
+                        Btn0.Enabled = false;
+                        //Btn1.Enabled = false;
+                        Btn2.Enabled = false;
+                        Btn3.Enabled = false;
+                        Btn4.Enabled = false;
+                        Btn5.Enabled = false;
+                        Btn6.Enabled = false;
+                        Btn7.Enabled = false;
+                        Btn8.Enabled = false;
+                        Btn10.Enabled = false;
+                        BtnPot.UseVisualStyleBackColor = true;
+                        id = 6;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    BtnLog.Visible = true;
+                    BtnLn.Visible = true;
+                    TxtBase.Visible = false;
+                    TxtExp.Visible = false;
+                    BtnBack.Visible = false;
+                    BtnMin.Visible = true;
+                    Btn0.Enabled = true;
+                    Btn1.Enabled = true;
+                    Btn2.Enabled = true;
+                    Btn3.Enabled = true;
+                    Btn4.Enabled = true;
+                    Btn5.Enabled = true;
+                    Btn6.Enabled = true;
+                    Btn7.Enabled = true;
+                    Btn8.Enabled = true;
+                    Btn10.Enabled = true;
+                    double a = double.Parse(TxtBase.Text);
+                    double b = double.Parse(TxtExp.Text);
+                    TxtNumbers.Text += Math.Truncate(Math.Pow(a, b) * 10000) / 10000;
+                    BtnPot.UseVisualStyleBackColor = false;
+                    TxtResult.Clear();
+                    id = 0;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Debe ingresar un número", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                id = 0;
+            }
         }
 
         private void BtnLog_Click(object sender, EventArgs e)
@@ -645,12 +674,16 @@ namespace WinAppCalc
         {
             try
             {
-                n1 = double.Parse(TxtAux.Text);
+                if (TxtAux.Text == "")
+                {
+                    n1 = double.Parse(TxtNumbers.Text);
+                }
+
                 if (id != 1)
                 {
                     id = 1;
                     TxtNumbers.Text += "+";
-
+                    TxtAux.Clear();
                 }
                 else
                 {
@@ -763,6 +796,121 @@ namespace WinAppCalc
             catch (Exception ex)
             {
                 MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                id = 0;
+            }
+        }
+
+        private void BtnPot_MouseHover(object sender, EventArgs e)
+        {
+            ToolTip ToolTip1 = new ToolTip();
+            ToolTip1.SetToolTip(BtnPot, "Despliega inputs para ingresar base y potencia");
+        }
+
+        private void TxtBase_MouseClick(object sender, MouseEventArgs e)
+        {
+            TxtBase.Clear();
+        }
+
+        private void TxtExp_MouseClick(object sender, MouseEventArgs e)
+        {
+            TxtExp.Clear();
+        }
+
+        private void BtnBack_Click(object sender, EventArgs e)
+        {
+            if (id >= 5)
+            {
+                id = 0;
+                BtnRaiz.UseVisualStyleBackColor = false;
+                BtnPot.UseVisualStyleBackColor = false;
+                BtnLog.Visible = true;
+                BtnLn.Visible = true;
+                Btn0.Enabled = true;
+                Btn1.Enabled = true;
+                Btn2.Enabled = true;
+                Btn3.Enabled = true;
+                Btn4.Enabled = true;
+                Btn5.Enabled = true;
+                Btn6.Enabled = true;
+                Btn7.Enabled = true;
+                Btn8.Enabled = true;
+                Btn10.Enabled = true;
+
+                BtnMin.Visible = true;
+                BtnBack.Visible = false;
+                TxtBase.Visible = false;
+                TxtExp.Visible = false;
+            }
+        }
+
+        private void BtnRaiz_MouseHover(object sender, EventArgs e)
+        {
+            ToolTip ToolTip1 = new ToolTip();
+            ToolTip1.SetToolTip(BtnRaiz, "Click 1 para ingresar un número\nClick 2 para calcular la raíz de ese número");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (TxtResult.Text == "" && id != 6)
+                {
+                    if (id != 0 || TxtAux.Text == "")
+                    {
+                        BtnLog.Visible = false;
+                        BtnLn.Visible = false;
+                        TxtBase.Visible = true;
+                        TxtExp.Visible = true;
+                        BtnBack.Visible = true;
+                        BtnMin.Visible = false;
+                        Btn0.Enabled = false;
+                        Btn1.Enabled = false;
+                        Btn2.Enabled = false;
+                        Btn3.Enabled = false;
+                        Btn4.Enabled = false;
+                        Btn5.Enabled = false;
+                        Btn6.Enabled = false;
+                        Btn7.Enabled = false;
+                        Btn8.Enabled = false;
+                        Btn10.Enabled = false;
+                        BtnPot.UseVisualStyleBackColor = true;
+                        id = 6;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    BtnLog.Visible = true;
+                    BtnLn.Visible = true;
+                    TxtBase.Visible = false;
+                    TxtExp.Visible = false;
+                    BtnBack.Visible = false;
+                    BtnMin.Visible = true;
+                    Btn0.Enabled = true;
+                    Btn1.Enabled = true;
+                    Btn2.Enabled = true;
+                    Btn3.Enabled = true;
+                    Btn4.Enabled = true;
+                    Btn5.Enabled = true;
+                    Btn6.Enabled = true;
+                    Btn7.Enabled = true;
+                    Btn8.Enabled = true;
+                    Btn10.Enabled = true;
+                    double a = double.Parse(TxtBase.Text);
+                    double b = double.Parse(TxtExp.Text);
+                    TxtNumbers.Text += Math.Truncate(Math.Pow(a, b) * 10000) / 10000;
+                    BtnPot.UseVisualStyleBackColor = false;
+                    TxtResult.Clear();
+                    id = 0;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Debe ingresar un número", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 id = 0;
             }
         }
