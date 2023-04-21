@@ -1,0 +1,16 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\bin\Debug\WinAppMenu.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\bin\Debug\WinAppMenu.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\bin\Debug\WinAppMenu.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.FrmSadFace.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\bin\Debug\WinAppCalc.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\bin\Debug\WinAppCalc.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\bin\Debug\WinAppCalc.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.csproj.CopyComplete
