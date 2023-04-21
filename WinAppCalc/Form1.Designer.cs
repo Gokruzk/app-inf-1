@@ -59,12 +59,14 @@
             this.BtnDiv = new System.Windows.Forms.Button();
             this.BtnPc = new System.Windows.Forms.Button();
             this.BtnPa = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.BtnMax = new System.Windows.Forms.Button();
             this.BtnMin = new System.Windows.Forms.Button();
             this.TxtBase = new System.Windows.Forms.TextBox();
             this.TxtExp = new System.Windows.Forms.TextBox();
             this.BtnBack = new System.Windows.Forms.Button();
+            this.LblBase = new System.Windows.Forms.Label();
+            this.LblExponente = new System.Windows.Forms.Label();
+            this.BtnAbs = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -115,7 +117,7 @@
             this.TxtNumbers.Location = new System.Drawing.Point(6, 14);
             this.TxtNumbers.Name = "TxtNumbers";
             this.TxtNumbers.ReadOnly = true;
-            this.TxtNumbers.Size = new System.Drawing.Size(193, 17);
+            this.TxtNumbers.Size = new System.Drawing.Size(349, 17);
             this.TxtNumbers.TabIndex = 0;
             this.TxtNumbers.TabStop = false;
             // 
@@ -446,18 +448,6 @@
             this.BtnPa.UseVisualStyleBackColor = false;
             this.BtnPa.Click += new System.EventHandler(this.BtnPa_Click);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(158, 325);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(67, 38);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "abs";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // BtnMax
             // 
             this.BtnMax.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -468,6 +458,7 @@
             this.BtnMax.TabIndex = 30;
             this.BtnMax.Text = "max";
             this.BtnMax.UseVisualStyleBackColor = false;
+            this.BtnMax.Click += new System.EventHandler(this.BtnMax_Click);
             // 
             // BtnMin
             // 
@@ -479,26 +470,26 @@
             this.BtnMin.TabIndex = 29;
             this.BtnMin.Text = "min";
             this.BtnMin.UseVisualStyleBackColor = false;
+            this.BtnMin.Click += new System.EventHandler(this.BtnMin_Click);
             // 
             // TxtBase
             // 
-            this.TxtBase.Location = new System.Drawing.Point(158, 105);
+            this.TxtBase.Location = new System.Drawing.Point(222, 105);
             this.TxtBase.Name = "TxtBase";
-            this.TxtBase.Size = new System.Drawing.Size(140, 20);
+            this.TxtBase.Size = new System.Drawing.Size(76, 20);
             this.TxtBase.TabIndex = 31;
-            this.TxtBase.Text = "Base";
             this.TxtBase.Visible = false;
             this.TxtBase.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TxtBase_MouseClick);
+            this.TxtBase.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtBase_KeyPress);
             // 
             // TxtExp
             // 
-            this.TxtExp.Location = new System.Drawing.Point(158, 127);
+            this.TxtExp.Location = new System.Drawing.Point(222, 127);
             this.TxtExp.Name = "TxtExp";
-            this.TxtExp.Size = new System.Drawing.Size(140, 20);
+            this.TxtExp.Size = new System.Drawing.Size(76, 20);
             this.TxtExp.TabIndex = 32;
-            this.TxtExp.Text = "Exponente";
             this.TxtExp.Visible = false;
-            this.TxtExp.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TxtExp_MouseClick);
+            this.TxtExp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtExp_KeyPress);
             // 
             // BtnBack
             // 
@@ -513,18 +504,52 @@
             this.BtnBack.Visible = false;
             this.BtnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
+            // LblBase
+            // 
+            this.LblBase.AutoSize = true;
+            this.LblBase.Location = new System.Drawing.Point(158, 108);
+            this.LblBase.Name = "LblBase";
+            this.LblBase.Size = new System.Drawing.Size(31, 13);
+            this.LblBase.TabIndex = 34;
+            this.LblBase.Text = "Base";
+            this.LblBase.Visible = false;
+            // 
+            // LblExponente
+            // 
+            this.LblExponente.AutoSize = true;
+            this.LblExponente.Location = new System.Drawing.Point(158, 130);
+            this.LblExponente.Name = "LblExponente";
+            this.LblExponente.Size = new System.Drawing.Size(58, 13);
+            this.LblExponente.TabIndex = 35;
+            this.LblExponente.Text = "Exponente";
+            this.LblExponente.Visible = false;
+            // 
+            // BtnAbs
+            // 
+            this.BtnAbs.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnAbs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAbs.Location = new System.Drawing.Point(158, 325);
+            this.BtnAbs.Name = "BtnAbs";
+            this.BtnAbs.Size = new System.Drawing.Size(67, 38);
+            this.BtnAbs.TabIndex = 36;
+            this.BtnAbs.Text = "abs";
+            this.BtnAbs.UseVisualStyleBackColor = false;
+            this.BtnAbs.Click += new System.EventHandler(this.BtnAbs_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(386, 377);
+            this.Controls.Add(this.BtnAbs);
+            this.Controls.Add(this.LblExponente);
+            this.Controls.Add(this.LblBase);
             this.Controls.Add(this.BtnBack);
             this.Controls.Add(this.TxtExp);
             this.Controls.Add(this.TxtBase);
             this.Controls.Add(this.BtnMax);
             this.Controls.Add(this.BtnMin);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnPc);
             this.Controls.Add(this.BtnPa);
             this.Controls.Add(this.BtnDiv);
@@ -596,12 +621,14 @@
         private System.Windows.Forms.TextBox TxtNumbers;
         private System.Windows.Forms.Button BtnPc;
         private System.Windows.Forms.Button BtnPa;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button BtnMax;
         private System.Windows.Forms.Button BtnMin;
         private System.Windows.Forms.TextBox TxtBase;
         private System.Windows.Forms.TextBox TxtExp;
         private System.Windows.Forms.Button BtnBack;
+        private System.Windows.Forms.Label LblBase;
+        private System.Windows.Forms.Label LblExponente;
+        private System.Windows.Forms.Button BtnAbs;
     }
 }
 
