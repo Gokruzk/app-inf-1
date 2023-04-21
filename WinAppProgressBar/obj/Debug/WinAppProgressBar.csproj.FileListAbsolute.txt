@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\obj\Debug\WinAppProgressBar.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\obj\Debug\WinAppProgressBar.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\obj\Debug\WinAppProgressBar.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\obj\Debug\WinAppProgressBar.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\obj\Debug\WinAppProgressBar.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\obj\Debug\WinAppProgressBar.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\bin\Debug\WinAppProgressBar.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\bin\Debug\WinAppProgressBar.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\bin\Debug\WinAppProgressBar.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\obj\Debug\WinAppProgressBar.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppProgressBar\obj\Debug\WinAppProgressBar.pdb
