@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\bin\Debug\WinAppMay3Nums.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\bin\Debug\WinAppMay3Nums.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\bin\Debug\WinAppMay3Nums.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\obj\Debug\WinAppMay3Nums.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\obj\Debug\WinAppMay3Nums.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\obj\Debug\WinAppMay3Nums.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\obj\Debug\WinAppMay3Nums.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\obj\Debug\WinAppMay3Nums.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\obj\Debug\WinAppMay3Nums.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\obj\Debug\WinAppMay3Nums.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMay3Nums\obj\Debug\WinAppMay3Nums.pdb
