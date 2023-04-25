@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\bin\Debug\WinAppFactorialNum.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\bin\Debug\WinAppFactorialNum.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\bin\Debug\WinAppFactorialNum.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\obj\Debug\WinAppFactorialNum.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\obj\Debug\WinAppFactorialNum.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\obj\Debug\WinAppFactorialNum.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\obj\Debug\WinAppFactorialNum.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\obj\Debug\WinAppFactorialNum.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\obj\Debug\WinAppFactorialNum.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\obj\Debug\WinAppFactorialNum.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFactorialNum\obj\Debug\WinAppFactorialNum.pdb
