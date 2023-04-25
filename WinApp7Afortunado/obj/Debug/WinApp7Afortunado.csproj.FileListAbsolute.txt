@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\bin\Debug\WinApp7Afortunado.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\bin\Debug\WinApp7Afortunado.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\bin\Debug\WinApp7Afortunado.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\obj\Debug\WinApp7Afortunado.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\obj\Debug\WinApp7Afortunado.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\obj\Debug\WinApp7Afortunado.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\obj\Debug\WinApp7Afortunado.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\obj\Debug\WinApp7Afortunado.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\obj\Debug\WinApp7Afortunado.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\obj\Debug\WinApp7Afortunado.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinApp7Afortunado\obj\Debug\WinApp7Afortunado.pdb
