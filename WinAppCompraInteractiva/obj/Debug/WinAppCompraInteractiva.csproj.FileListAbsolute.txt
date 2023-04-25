@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\bin\Debug\WinAppCompraInteractiva.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\bin\Debug\WinAppCompraInteractiva.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\bin\Debug\WinAppCompraInteractiva.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\obj\Debug\WinAppCompraInteractiva.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\obj\Debug\WinAppCompraInteractiva.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\obj\Debug\WinAppCompraInteractiva.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\obj\Debug\WinAppCompraInteractiva.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\obj\Debug\WinAppCompraInteractiva.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\obj\Debug\WinAppCompraInteractiva.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\obj\Debug\WinAppCompraInteractiva.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCompraInteractiva\obj\Debug\WinAppCompraInteractiva.pdb
