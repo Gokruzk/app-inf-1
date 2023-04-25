@@ -29,11 +29,15 @@ namespace WinAppCalc
             }
             if (id == 7)
             {
-                TxtResult.Text += 0;
+                MessageBox.Show("No se puede realizar log(0)\"", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                BtnLog.UseVisualStyleBackColor = false;
+                
             }
             if (id == 8)
             {
-                TxtResult.Text += 0;
+                MessageBox.Show("No se puede realizar ln(0)\"", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                BtnLn.UseVisualStyleBackColor = false;
+                
             }
             if (id == 9)
             {
@@ -399,7 +403,33 @@ namespace WinAppCalc
         {
             try
             {
-                if(id == 12)
+                if(id == 5)
+                {
+                    MessageBox.Show("No se puede realizar radicación de números negativos\"", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    BtnRaiz.UseVisualStyleBackColor = false;
+                    BtnLog.Enabled = true;
+                    BtnLn.Enabled = true;
+                    BtnMax.Enabled = true;
+                    BtnPc.Enabled = true;
+                    BtnPa.Enabled = true;
+                    BtnSin.Enabled = true;
+                    BtnCos.Enabled = true;
+                    BtnTan.Enabled = true;
+                    BtnPot.Enabled = true;
+                    BtnMin.Visible = true;
+                    BtnBack.Visible = false;
+                    TxtResult.Clear();
+                    id = 0;
+                }
+                else if (id == 10)
+                {
+                    TxtResult.Text += "-";
+                }
+                else if (id == 11)
+                {
+                    TxtResult.Text += "-";
+                }
+                else if(id == 12)
                 {
                     TxtResult.Text += "-";
                 }else if (id != 2)
@@ -411,8 +441,6 @@ namespace WinAppCalc
                 {
                     MessageBox.Show("No puede ingresar doble signo", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                //TxtResult.Text = TxtNumbers.Text;
-                //TxtNumbers.Clear();
             }
             catch
             {
@@ -434,8 +462,6 @@ namespace WinAppCalc
                 {
                     MessageBox.Show("No puede ingresar doble signo", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                //TxtResult.Text = TxtNumbers.Text;
-                //TxtNumbers.Clear();
             }
             catch
             {
@@ -490,10 +516,32 @@ namespace WinAppCalc
                     {
                         id = 5;
                         BtnRaiz.UseVisualStyleBackColor = true;
+                        BtnLog.Enabled = false;
+                        BtnLn.Enabled = false;
+                        BtnMax.Enabled = false;
+                        BtnPc.Enabled = false;
+                        BtnPa.Enabled = false;
+                        BtnSin.Enabled = false;
+                        BtnCos.Enabled = false;
+                        BtnTan.Enabled = false;
+                        BtnPot.Enabled = false;
                     }
                     else
                     {
                         MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        BtnRaiz.UseVisualStyleBackColor = false;
+                        BtnLog.Enabled = true;
+                        BtnLn.Enabled = true;
+                        BtnMax.Enabled = true;
+                        BtnPc.Enabled = true;
+                        BtnPa.Enabled = true;
+                        BtnSin.Enabled = true;
+                        BtnCos.Enabled = true;
+                        BtnTan.Enabled = true;
+                        BtnPot.Enabled = true;
+                        BtnMin.Visible = true;
+                        BtnBack.Visible = false;
+                        id = 0;
                     }
                 }
                 else
@@ -502,6 +550,15 @@ namespace WinAppCalc
                     BtnBack.Visible = false;
                     TxtNumbers.Text += Math.Truncate(Math.Sqrt(double.Parse(TxtResult.Text)) * 10000) / 10000;
                     BtnRaiz.UseVisualStyleBackColor = false;
+                    BtnLog.Enabled = true;
+                    BtnLn.Enabled = true;
+                    BtnMax.Enabled = true;
+                    BtnPc.Enabled = true;
+                    BtnPa.Enabled = true;
+                    BtnSin.Enabled = true;
+                    BtnCos.Enabled = true;
+                    BtnTan.Enabled = true;
+                    BtnPot.Enabled = true;
                     TxtAux.Text = TxtResult.Text;
                     TxtResult.Clear();
                     id = 0;
@@ -511,6 +568,19 @@ namespace WinAppCalc
             catch (Exception ex)
             {
                 MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                BtnRaiz.UseVisualStyleBackColor = false;
+                BtnLog.Enabled = true;
+                BtnLn.Enabled = true;
+                BtnMax.Enabled = true;
+                BtnPc.Enabled = true;
+                BtnPa.Enabled = true;
+                BtnSin.Enabled = true;
+                BtnCos.Enabled = true;
+                BtnTan.Enabled = true;
+                BtnPot.Enabled = true;
+                BtnMin.Visible = true;
+                BtnBack.Visible = false;
+                TxtResult.Clear();
                 id = 0;
             }
         }
@@ -538,16 +608,28 @@ namespace WinAppCalc
                     {
                         id = 10;
                         BtnCos.UseVisualStyleBackColor = true;
+                        BtnMin.Enabled = false;
+                        BtnMax.Enabled = false;
+                        BtnPc.Enabled = false;
+                        BtnSin.Enabled = false;
+                        BtnTan.Enabled = false;
                     }
                     else
                     {
                         MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        BtnCos.UseVisualStyleBackColor = false;
+                        id = 0;
                     }
                 }
                 else
                 {
                     TxtNumbers.Text += Math.Cos(double.Parse(TxtResult.Text) * (Math.PI) / 180);
                     BtnCos.UseVisualStyleBackColor = false;
+                    BtnMin.Enabled = true;
+                    BtnMax.Enabled = true;
+                    BtnPc.Enabled = true;
+                    BtnSin.Enabled = true;
+                    BtnTan.Enabled = true;
                     TxtAux.Text = TxtResult.Text;
                     TxtResult.Clear();
                     id = 0;
@@ -557,6 +639,9 @@ namespace WinAppCalc
             catch (Exception ex)
             {
                 MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                BtnCos.UseVisualStyleBackColor = false;
+                BtnSin.Enabled = true;
+                BtnTan.Enabled = true;
                 id = 0;
             }
         }
@@ -579,6 +664,8 @@ namespace WinAppCalc
                         TxtExp.Visible = true;
                         BtnBack.Visible = true;
                         BtnMin.Visible = false;
+                        BtnRaiz.Enabled = false;
+                        BtnAbs.Enabled = false;
                         BtnMax.Enabled = false;
                         Btn0.Enabled = false;
                         Btn1.Enabled = false;
@@ -600,6 +687,31 @@ namespace WinAppCalc
                     else
                     {
                         MessageBox.Show("Debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        LblBase.Visible = false;
+                        LblExponente.Visible = false;
+                        BtnLog.Visible = true;
+                        BtnLn.Visible = true;
+                        TxtBase.Visible = false;
+                        TxtExp.Visible = false;
+                        BtnBack.Visible = false;
+                        BtnMin.Visible = true;
+                        BtnAbs.Enabled = true;
+                        BtnMax.Enabled = true;
+                        BtnRaiz.Enabled = true;
+                        Btn0.Enabled = true;
+                        Btn1.Enabled = true;
+                        Btn2.Enabled = true;
+                        Btn3.Enabled = true;
+                        Btn4.Enabled = true;
+                        Btn5.Enabled = true;
+                        Btn6.Enabled = true;
+                        Btn7.Enabled = true;
+                        Btn8.Enabled = true;
+                        Btn10.Enabled = true;
+                        BtnPc.Enabled = true;
+                        BtnSin.Enabled = true;
+                        BtnCos.Enabled = true;
+                        BtnTan.Enabled = true;
                     }
                 }
                 else
@@ -612,7 +724,9 @@ namespace WinAppCalc
                     TxtExp.Visible = false;
                     BtnBack.Visible = false;
                     BtnMin.Visible = true;
+                    BtnAbs.Enabled = true;
                     BtnMax.Enabled = true;
+                    BtnRaiz.Enabled = true;
                     Btn0.Enabled = true;
                     Btn1.Enabled = true;
                     Btn2.Enabled = true;
@@ -643,6 +757,32 @@ namespace WinAppCalc
             catch (Exception ex)
             {
                 MessageBox.Show("Debe ingresar un número", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                BtnPot.UseVisualStyleBackColor = false;
+                LblBase.Visible = false;
+                LblExponente.Visible = false;
+                BtnLog.Visible = true;
+                BtnLn.Visible = true;
+                TxtBase.Visible = false;
+                TxtExp.Visible = false;
+                BtnBack.Visible = false;
+                BtnMin.Visible = true;
+                BtnRaiz.Enabled = true;
+                BtnAbs.Enabled = true;
+                BtnMax.Enabled = true;
+                Btn0.Enabled = true;
+                Btn1.Enabled = true;
+                Btn2.Enabled = true;
+                Btn3.Enabled = true;
+                Btn4.Enabled = true;
+                Btn5.Enabled = true;
+                Btn6.Enabled = true;
+                Btn7.Enabled = true;
+                Btn8.Enabled = true;
+                Btn10.Enabled = true;
+                BtnPc.Enabled = true;
+                BtnSin.Enabled = true;
+                BtnCos.Enabled = true;
+                BtnTan.Enabled = true;
                 id = 0;
             }
         }
@@ -657,16 +797,68 @@ namespace WinAppCalc
                     {
                         id = 7;
                         BtnLog.UseVisualStyleBackColor = true;
+                        BtnMin.Visible = false;
+                        BtnBack.Visible = true;
+                        BtnLn.Enabled = false;
+                        BtnIgual.Enabled = false;
+                        BtnAbs.Enabled = false;
+                        BtnPa.Enabled = false;
+                        BtnPc.Enabled = false;
+                        BtnTan.Enabled = false;
+                        BtnCos.Enabled = false;
+                        BtnSin.Enabled = false;
+                        BtnPot.Enabled = false;
+                        BtnRest.Enabled = false;
+                        BtnSum.Enabled = false;
+                        BtnMov.Enabled = false;
+                        BtnMax.Enabled = false;
+                        BtnMin.Enabled = false;
+                        BtnRaiz.Enabled = false;
                     }
                     else
                     {
                         MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        BtnLog.UseVisualStyleBackColor = false;
+                        BtnMin.Visible = true;
+                        BtnBack.Visible = false;
+                        BtnIgual.Enabled = true;
+                        BtnPa.Enabled = true;
+                        BtnPc.Enabled = true;
+                        BtnLn.Enabled = true;
+                        BtnCos.Enabled = true;
+                        BtnTan.Enabled = true;
+                        BtnSin.Enabled = true;
+                        BtnPot.Enabled = true;
+                        BtnRest.Enabled = true;
+                        BtnSum.Enabled = true;
+                        BtnMov.Enabled = true;
+                        BtnMax.Enabled = true;
+                        BtnMin.Enabled = true;
+                        BtnMov.Enabled = true;
+                        id = 0;
                     }
                 }
                 else
                 {
                     TxtNumbers.Text += Math.Truncate(Math.Log10(double.Parse(TxtResult.Text)) * 10000) / 10000;
                     BtnLog.UseVisualStyleBackColor = false;
+                    BtnMin.Visible = true;
+                    BtnBack.Visible = false;
+                    BtnLn.Enabled = true;
+                    BtnIgual.Enabled = true;
+                    BtnAbs.Enabled = true;
+                    BtnPa.Enabled = true;
+                    BtnPc.Enabled = true;
+                    BtnTan.Enabled = true;
+                    BtnCos.Enabled = true;
+                    BtnSin.Enabled = true;
+                    BtnPot.Enabled = true;
+                    BtnRest.Enabled = true;
+                    BtnSum.Enabled = true;
+                    BtnMov.Enabled = true;
+                    BtnMax.Enabled = true;
+                    BtnMin.Enabled = true;
+                    BtnRaiz.Enabled = true;
                     TxtAux.Text = TxtResult.Text;
                     TxtResult.Clear();
                     id = 0;
@@ -676,6 +868,24 @@ namespace WinAppCalc
             catch (Exception ex)
             {
                 MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                BtnLog.UseVisualStyleBackColor = false;
+                BtnMin.Visible = true;
+                BtnBack.Visible = false;
+                BtnLn.Enabled = true;
+                BtnIgual.Enabled = true;
+                BtnAbs.Enabled = true;
+                BtnPa.Enabled = true;
+                BtnPc.Enabled = true;
+                BtnTan.Enabled = true;
+                BtnCos.Enabled = true;
+                BtnSin.Enabled = true;
+                BtnPot.Enabled = true;
+                BtnRest.Enabled = true;
+                BtnSum.Enabled = true;
+                BtnMov.Enabled = true;
+                BtnMax.Enabled = true;
+                BtnMin.Enabled = true;
+                BtnRaiz.Enabled = true;
                 id = 0;
             }
 
@@ -696,16 +906,68 @@ namespace WinAppCalc
                     {
                         id = 8;
                         BtnLn.UseVisualStyleBackColor = true;
+                        BtnMin.Visible = false;
+                        BtnBack.Visible = true;
+                        BtnIgual.Enabled = false;
+                        BtnAbs.Enabled = false;
+                        BtnPa.Enabled = false;
+                        BtnPc.Enabled = false;
+                        BtnLog.Enabled = false;
+                        BtnTan.Enabled = false;
+                        BtnCos.Enabled = false;
+                        BtnSin.Enabled = false;
+                        BtnPot.Enabled = false;
+                        BtnRest.Enabled = false;
+                        BtnSum.Enabled = false;
+                        BtnMov.Enabled = false;
+                        BtnMax.Enabled = false;
+                        BtnMin.Enabled = false;
+                        BtnRaiz.Enabled = false;
                     }
                     else
                     {
                         MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        BtnLn.UseVisualStyleBackColor = false;
+                        BtnMin.Visible = true;
+                        BtnBack.Visible = false;
+                        BtnIgual.Enabled = true;
+                        BtnAbs.Enabled = true;
+                        BtnPa.Enabled = true;
+                        BtnPc.Enabled = true;
+                        BtnLog.Enabled = true;
+                        BtnTan.Enabled = true;
+                        BtnCos.Enabled = true;
+                        BtnSin.Enabled = true;
+                        BtnPot.Enabled = true;
+                        BtnRest.Enabled = true;
+                        BtnSum.Enabled = true;
+                        BtnMov.Enabled = true;
+                        BtnMax.Enabled = true;
+                        BtnMin.Enabled = true;
+                        BtnRaiz.Enabled = true;
                     }
                 }
                 else
                 {
                     TxtNumbers.Text += Math.Truncate(Math.Log(double.Parse(TxtResult.Text)) * 10000) / 10000;
                     BtnLn.UseVisualStyleBackColor = false;
+                    BtnMin.Visible = true;
+                    BtnBack.Visible = false;
+                    BtnIgual.Enabled = true;
+                    BtnAbs.Enabled = true;
+                    BtnPa.Enabled = true;
+                    BtnPc.Enabled = true;
+                    BtnLog.Enabled = true;
+                    BtnCos.Enabled = true;
+                    BtnTan.Enabled = true;
+                    BtnSin.Enabled = true;
+                    BtnPot.Enabled = true;
+                    BtnRest.Enabled = true;
+                    BtnSum.Enabled = true;
+                    BtnMov.Enabled = true;
+                    BtnMax.Enabled = true;
+                    BtnMin.Enabled = true;
+                    BtnRaiz.Enabled = true;
                     TxtAux.Text = TxtResult.Text;
                     TxtResult.Clear();
                     id = 0;
@@ -715,6 +977,24 @@ namespace WinAppCalc
             catch (Exception ex)
             {
                 MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                BtnLn.UseVisualStyleBackColor = false;
+                BtnMin.Visible = true;
+                BtnBack.Visible = false;
+                BtnIgual.Enabled = true;
+                BtnAbs.Enabled = true;
+                BtnPa.Enabled = true;
+                BtnPc.Enabled = true;
+                BtnLog.Enabled = true;
+                BtnTan.Enabled = true;
+                BtnCos.Enabled = true;
+                BtnSin.Enabled = true;
+                BtnPot.Enabled = true;
+                BtnRest.Enabled = true;
+                BtnSum.Enabled = true;
+                BtnMov.Enabled = true;
+                BtnMax.Enabled = true;
+                BtnMin.Enabled = true;
+                BtnRaiz.Enabled = true;
                 id = 0;
             }
         }
@@ -818,7 +1098,6 @@ namespace WinAppCalc
             catch (Exception ex)
             {
                 MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                id = 0;
             }
         }
 
@@ -836,6 +1115,8 @@ namespace WinAppCalc
                     else
                     {
                         MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        BtnTan.UseVisualStyleBackColor = false;
+                        id = 0;
                     }
                 }
                 else
@@ -851,6 +1132,7 @@ namespace WinAppCalc
             catch (Exception ex)
             {
                 MessageBox.Show("Debe ingresar un número o debe haber un operador precedido", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                BtnTan.UseVisualStyleBackColor = false;
                 id = 0;
             }
         }
@@ -878,12 +1160,33 @@ namespace WinAppCalc
                 id = 0;
                 BtnRaiz.UseVisualStyleBackColor = false;
                 BtnPot.UseVisualStyleBackColor = false;
+                BtnLog.UseVisualStyleBackColor = false;
+                BtnLn.UseVisualStyleBackColor = false;
                 BtnAbs.UseVisualStyleBackColor = false;
                 BtnMax.UseVisualStyleBackColor = false;
+                BtnMin.UseVisualStyleBackColor = false;
                 LblBase.Visible = false;
                 LblExponente.Visible = false;
                 BtnLog.Visible = true;
                 BtnLn.Visible = true;
+                BtnMin.Visible = true;
+                BtnBack.Visible = false;
+                TxtBase.Visible = false;
+                TxtExp.Visible = false;
+                BtnRaiz.Enabled = true;
+                BtnAbs.Enabled = true;
+                BtnMin.Enabled = true;
+                BtnMax.Enabled = true;
+                BtnLog.Enabled = true;
+                BtnLn.Enabled = true;
+                BtnMax.Enabled = true;
+                BtnPc.Enabled = true;
+                BtnPa.Enabled = true;
+                BtnSin.Enabled = true;
+                BtnCos.Enabled = true;
+                BtnTan.Enabled = true;
+                BtnPot.Enabled = true;
+                BtnMov.Enabled = true;
                 Btn0.Enabled = true;
                 Btn1.Enabled = true;
                 Btn2.Enabled = true;
@@ -894,11 +1197,6 @@ namespace WinAppCalc
                 Btn7.Enabled = true;
                 Btn8.Enabled = true;
                 Btn10.Enabled = true;
-                BtnMax.Enabled = true;
-                BtnMin.Visible = true;
-                BtnBack.Visible = false;
-                TxtBase.Visible = false;
-                TxtExp.Visible = false;
             }
         }
 
@@ -1143,7 +1441,6 @@ namespace WinAppCalc
             catch (Exception ex)
             {
                 MessageBox.Show("Ingrese número primero o expresión incorrecta", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                //MessageBox.Show(ex.Message);
             }
         }
     }

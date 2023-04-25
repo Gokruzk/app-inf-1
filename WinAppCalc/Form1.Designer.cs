@@ -93,6 +93,7 @@
             this.TxtAux.Size = new System.Drawing.Size(78, 17);
             this.TxtAux.TabIndex = 2;
             this.TxtAux.TabStop = false;
+            this.TxtAux.Visible = false;
             // 
             // TxtResult
             // 
