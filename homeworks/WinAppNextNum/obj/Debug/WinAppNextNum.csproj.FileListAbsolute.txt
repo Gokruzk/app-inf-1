@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\bin\Debug\WinAppNextNum.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\bin\Debug\WinAppNextNum.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\bin\Debug\WinAppNextNum.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\obj\Debug\WinAppNextNum.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\obj\Debug\WinAppNextNum.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\obj\Debug\WinAppNextNum.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\obj\Debug\WinAppNextNum.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\obj\Debug\WinAppNextNum.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\obj\Debug\WinAppNextNum.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\obj\Debug\WinAppNextNum.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppNextNum\obj\Debug\WinAppNextNum.pdb
