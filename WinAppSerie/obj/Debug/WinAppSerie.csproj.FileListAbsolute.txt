@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\bin\Debug\WinAppSerie.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\bin\Debug\WinAppSerie.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\bin\Debug\WinAppSerie.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\obj\Debug\WinAppSerie.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\obj\Debug\WinAppSerie.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\obj\Debug\WinAppSerie.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\obj\Debug\WinAppSerie.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\obj\Debug\WinAppSerie.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\obj\Debug\WinAppSerie.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\obj\Debug\WinAppSerie.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppSerie\obj\Debug\WinAppSerie.pdb
