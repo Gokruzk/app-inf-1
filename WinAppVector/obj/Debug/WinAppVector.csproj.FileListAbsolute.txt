@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\bin\Debug\WinAppVector.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\bin\Debug\WinAppVector.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\bin\Debug\WinAppVector.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\obj\Debug\WinAppVector.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\obj\Debug\WinAppVector.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\obj\Debug\WinAppVector.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\obj\Debug\WinAppVector.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\obj\Debug\WinAppVector.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\obj\Debug\WinAppVector.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\obj\Debug\WinAppVector.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppVector\obj\Debug\WinAppVector.pdb
