@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\bin\Debug\WinAppMatriz.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\bin\Debug\WinAppMatriz.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\bin\Debug\WinAppMatriz.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\obj\Debug\WinAppMatriz.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\obj\Debug\WinAppMatriz.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\obj\Debug\WinAppMatriz.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\obj\Debug\WinAppMatriz.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\obj\Debug\WinAppMatriz.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\obj\Debug\WinAppMatriz.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\obj\Debug\WinAppMatriz.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMatriz\obj\Debug\WinAppMatriz.pdb
