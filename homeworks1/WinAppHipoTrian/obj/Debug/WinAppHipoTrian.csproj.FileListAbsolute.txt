@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\bin\Debug\WinAppHipoTrian.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\bin\Debug\WinAppHipoTrian.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\bin\Debug\WinAppHipoTrian.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\obj\Debug\WinAppHipoTrian.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\obj\Debug\WinAppHipoTrian.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\obj\Debug\WinAppHipoTrian.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\obj\Debug\WinAppHipoTrian.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\obj\Debug\WinAppHipoTrian.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\obj\Debug\WinAppHipoTrian.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\obj\Debug\WinAppHipoTrian.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppHipoTrian\obj\Debug\WinAppHipoTrian.pdb

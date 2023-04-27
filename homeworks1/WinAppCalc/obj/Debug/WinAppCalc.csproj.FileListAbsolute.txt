@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\bin\Debug\WinAppCalc.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\obj\Debug\WinAppCalc.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\obj\Debug\WinAppCalc.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\obj\Debug\WinAppCalc.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\obj\Debug\WinAppCalc.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\obj\Debug\WinAppCalc.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\obj\Debug\WinAppCalc.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\bin\Debug\WinAppCalc.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\bin\Debug\WinAppCalc.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\obj\Debug\WinAppCalc.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\WinAppCalc\obj\Debug\WinAppCalc.exe
