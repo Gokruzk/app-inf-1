@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nigel\\workspace\\app-inf-1-csharp\\homeworks\\WinAppNextHour\\WinAppNextHour.csproj",
+      "projectUniqueName": "C:\\Users\\nigel\\workspace\\app-inf-1-csharp\\homeworks1\\WinAppNextHour\\WinAppNextHour.csproj",
       "projectName": "WinAppNextHour",
-      "projectPath": "C:\\Users\\nigel\\workspace\\app-inf-1-csharp\\homeworks\\WinAppNextHour\\WinAppNextHour.csproj",
+      "projectPath": "C:\\Users\\nigel\\workspace\\app-inf-1-csharp\\homeworks1\\WinAppNextHour\\WinAppNextHour.csproj",
       "packagesPath": "C:\\Users\\nigel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nigel\\workspace\\app-inf-1-csharp\\homeworks\\WinAppNextHour\\obj\\",
+      "outputPath": "C:\\Users\\nigel\\workspace\\app-inf-1-csharp\\homeworks1\\WinAppNextHour\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nigel\\AppData\\Roaming\\NuGet\\NuGet.Config",
