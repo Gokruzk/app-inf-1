@@ -1,0 +1,12 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\bin\Debug\WinAppDatagridview.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\bin\Debug\WinAppDatagridview.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\bin\Debug\WinAppDatagridview.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\obj\Debug\WinAppDatagridview.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\obj\Debug\WinAppDatagridview.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\obj\Debug\WinAppDatagridview.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\obj\Debug\WinAppDatagridview.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\obj\Debug\WinAppDatagridview.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\obj\Debug\WinAppDatagridview.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\obj\Debug\WinAppDatagridview.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\obj\Debug\WinAppDatagridview.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDatagridview\obj\Debug\WinAppDatagridview.Form2.resources

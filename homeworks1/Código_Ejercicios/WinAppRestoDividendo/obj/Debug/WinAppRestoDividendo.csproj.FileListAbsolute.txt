@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRestoDividendo\bin\Debug\WinAppRestoDividendo.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRestoDividendo\obj\Debug\WinAppRestoDividendo.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRestoDividendo\obj\Debug\WinAppRestoDividendo.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRestoDividendo\obj\Debug\WinAppRestoDividendo.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRestoDividendo\obj\Debug\WinAppRestoDividendo.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRestoDividendo\obj\Debug\WinAppRestoDividendo.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRestoDividendo\obj\Debug\WinAppRestoDividendo.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRestoDividendo\bin\Debug\WinAppRestoDividendo.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRestoDividendo\bin\Debug\WinAppRestoDividendo.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRestoDividendo\obj\Debug\WinAppRestoDividendo.dll

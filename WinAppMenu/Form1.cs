@@ -77,8 +77,8 @@ namespace WinAppMenu
 
         private void aOtroProyectoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            WinAppCalc.Form1 obj = new WinAppCalc.Form1();
-            obj.ShowDialog();
+            //WinAppCalc.Form1 obj = new WinAppCalc.Form1();
+            //obj.ShowDialog();
         }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppNextSec\bin\Debug\WinAppNextSec.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppNextSec\obj\Debug\WinAppNextSec.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppNextSec\obj\Debug\WinAppNextSec.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppNextSec\obj\Debug\WinAppNextSec.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppNextSec\obj\Debug\WinAppNextSec.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppNextSec\obj\Debug\WinAppNextSec.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppNextSec\obj\Debug\WinAppNextSec.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppNextSec\bin\Debug\WinAppNextSec.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppNextSec\bin\Debug\WinAppNextSec.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppNextSec\obj\Debug\WinAppNextSec.dll

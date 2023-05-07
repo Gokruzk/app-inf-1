@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRandomG\bin\Debug\WinAppRandomG.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRandomG\obj\Debug\WinAppRandomG.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRandomG\obj\Debug\WinAppRandomG.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRandomG\obj\Debug\WinAppRandomG.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRandomG\obj\Debug\WinAppRandomG.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRandomG\obj\Debug\WinAppRandomG.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRandomG\obj\Debug\WinAppRandomG.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRandomG\bin\Debug\WinAppRandomG.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRandomG\bin\Debug\WinAppRandomG.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppRandomG\obj\Debug\WinAppRandomG.dll

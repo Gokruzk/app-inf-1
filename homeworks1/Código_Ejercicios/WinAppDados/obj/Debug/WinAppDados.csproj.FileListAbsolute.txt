@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDados\bin\Debug\WinAppDados.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDados\obj\Debug\WinAppDados.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDados\obj\Debug\WinAppDados.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDados\obj\Debug\WinAppDados.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDados\obj\Debug\WinAppDados.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDados\obj\Debug\WinAppDados.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDados\obj\Debug\WinAppDados.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDados\bin\Debug\WinAppDados.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDados\bin\Debug\WinAppDados.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDados\obj\Debug\WinAppDados.dll

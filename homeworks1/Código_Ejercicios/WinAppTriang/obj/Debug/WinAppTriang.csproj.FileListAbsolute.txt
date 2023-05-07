@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppTriang\bin\Debug\WinAppTriang.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppTriang\obj\Debug\WinAppTriang.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppTriang\obj\Debug\WinAppTriang.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppTriang\obj\Debug\WinAppTriang.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppTriang\obj\Debug\WinAppTriang.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppTriang\obj\Debug\WinAppTriang.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppTriang\obj\Debug\WinAppTriang.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppTriang\bin\Debug\WinAppTriang.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppTriang\bin\Debug\WinAppTriang.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppTriang\obj\Debug\WinAppTriang.dll

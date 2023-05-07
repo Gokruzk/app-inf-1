@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppSizeTable\bin\Debug\WinAppSizeTable.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppSizeTable\obj\Debug\WinAppSizeTable.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppSizeTable\obj\Debug\WinAppSizeTable.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppSizeTable\obj\Debug\WinAppSizeTable.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppSizeTable\obj\Debug\WinAppSizeTable.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppSizeTable\obj\Debug\WinAppSizeTable.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppSizeTable\obj\Debug\WinAppSizeTable.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppSizeTable\bin\Debug\WinAppSizeTable.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppSizeTable\bin\Debug\WinAppSizeTable.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppSizeTable\obj\Debug\WinAppSizeTable.dll

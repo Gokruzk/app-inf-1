@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppCadena\bin\Debug\WinAppCadena.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppCadena\obj\Debug\WinAppCadena.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppCadena\obj\Debug\WinAppCadena.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppCadena\obj\Debug\WinAppCadena.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppCadena\obj\Debug\WinAppCadena.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppCadena\obj\Debug\WinAppCadena.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppCadena\obj\Debug\WinAppCadena.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppCadena\bin\Debug\WinAppCadena.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppCadena\bin\Debug\WinAppCadena.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppCadena\obj\Debug\WinAppCadena.dll

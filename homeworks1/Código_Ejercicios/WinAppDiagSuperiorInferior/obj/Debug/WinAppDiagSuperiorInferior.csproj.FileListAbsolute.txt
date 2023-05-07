@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDiagSuperiorInferior\obj\Debug\WinAppDiagSuperiorInferior.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDiagSuperiorInferior\obj\Debug\WinAppDiagSuperiorInferior.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDiagSuperiorInferior\obj\Debug\WinAppDiagSuperiorInferior.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDiagSuperiorInferior\obj\Debug\WinAppDiagSuperiorInferior.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDiagSuperiorInferior\obj\Debug\WinAppDiagSuperiorInferior.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDiagSuperiorInferior\bin\Debug\WinAppDiagSuperiorInferior.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDiagSuperiorInferior\obj\Debug\WinAppDiagSuperiorInferior.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDiagSuperiorInferior\bin\Debug\WinAppDiagSuperiorInferior.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDiagSuperiorInferior\bin\Debug\WinAppDiagSuperiorInferior.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppDiagSuperiorInferior\obj\Debug\WinAppDiagSuperiorInferior.dll

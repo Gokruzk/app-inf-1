@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppEditor\bin\Debug\WinAppEditor.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppEditor\obj\Debug\WinAppEditor.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppEditor\obj\Debug\WinAppEditor.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppEditor\obj\Debug\WinAppEditor.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppEditor\obj\Debug\WinAppEditor.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppEditor\obj\Debug\WinAppEditor.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppEditor\obj\Debug\WinAppEditor.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppEditor\bin\Debug\WinAppEditor.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppEditor\bin\Debug\WinAppEditor.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppEditor\obj\Debug\WinAppEditor.dll

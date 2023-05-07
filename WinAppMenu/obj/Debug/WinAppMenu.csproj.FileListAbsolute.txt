@@ -10,7 +10,3 @@ C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.csproj
 C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.exe
 C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.pdb
 C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.FrmSadFace.resources
-C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\bin\Debug\WinAppCalc.dll
-C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\bin\Debug\WinAppCalc.pdb
-C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\bin\Debug\WinAppCalc.dll.config
-C:\Users\nigel\workspace\app-inf-1-csharp\WinAppMenu\obj\Debug\WinAppMenu.csproj.CopyComplete

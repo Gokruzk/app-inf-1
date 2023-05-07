@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppArray\bin\Debug\WinAppArray.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppArray\obj\Debug\WinAppArray.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppArray\obj\Debug\WinAppArray.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppArray\obj\Debug\WinAppArray.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppArray\obj\Debug\WinAppArray.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppArray\obj\Debug\WinAppArray.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppArray\obj\Debug\WinAppArray.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppArray\bin\Debug\WinAppArray.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppArray\bin\Debug\WinAppArray.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppArray\obj\Debug\WinAppArray.dll

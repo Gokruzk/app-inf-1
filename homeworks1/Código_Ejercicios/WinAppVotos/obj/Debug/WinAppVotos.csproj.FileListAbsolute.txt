@@ -1,0 +1,10 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppVotos\bin\Debug\WinAppVotos.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppVotos\obj\Debug\WinAppVotos.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppVotos\obj\Debug\WinAppVotos.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppVotos\obj\Debug\WinAppVotos.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppVotos\obj\Debug\WinAppVotos.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppVotos\obj\Debug\WinAppVotos.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppVotos\obj\Debug\WinAppVotos.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppVotos\bin\Debug\WinAppVotos.dll.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppVotos\bin\Debug\WinAppVotos.dll
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppVotos\obj\Debug\WinAppVotos.dll
