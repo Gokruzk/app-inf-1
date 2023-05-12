@@ -22,9 +22,5 @@ namespace WinAppDatagridview
                 dataGridView1.Rows[row.Index].Cells["Column1"].Value = row.Cells[0].Value;
             }
         }
-
-        private void BtnList_Click(object sender, EventArgs e)
-        {
-        }
     }
 }

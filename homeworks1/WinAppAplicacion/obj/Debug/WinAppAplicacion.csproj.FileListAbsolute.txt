@@ -1,0 +1,14 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\bin\Debug\WinAppAplicacion.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\bin\Debug\WinAppAplicacion.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\bin\Debug\WinAppAplicacion.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.CalcSecs.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.WorldHours.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\homeworks1\WinAppAplicacion\obj\Debug\WinAppAplicacion.PathForm.resources
