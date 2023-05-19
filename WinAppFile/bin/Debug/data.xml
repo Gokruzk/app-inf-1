@@ -20,6 +20,36 @@
   </TblData>
   <TblData>
     <Codigo>2222</Codigo>
+    <Nombre>ALEJANDRO</Nombre>
+    <Apellido>NOVILLO</Apellido>
+    <Edad>50</Edad>
+  </TblData>
+  <TblData>
+    <Codigo>1111</Codigo>
+    <Nombre>jijijijiji</Nombre>
+    <Apellido>jijiji</Apellido>
+    <Edad>23</Edad>
+  </TblData>
+  <TblData>
+    <Codigo>7999</Codigo>
+    <Nombre>marcel</Nombre>
+    <Apellido>jama</Apellido>
+    <Edad>0</Edad>
+  </TblData>
+  <TblData>
+    <Codigo>7046</Codigo>
+    <Nombre>nigell</Nombre>
+    <Apellido>jama</Apellido>
+    <Edad>0</Edad>
+  </TblData>
+  <TblData>
+    <Codigo>7057</Codigo>
+    <Nombre>nigell</Nombre>
+    <Apellido>jama</Apellido>
+    <Edad>0</Edad>
+  </TblData>
+  <TblData>
+    <Codigo>2222</Codigo>
     <Nombre>FERNANDO</Nombre>
     <Apellido>NOVILLO</Apellido>
     <Edad>50</Edad>

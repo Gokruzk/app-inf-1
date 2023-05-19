@@ -35,11 +35,12 @@ namespace WinAppFile
                 {
                     obj.Devolver(data);
                     data[0].AcceptChanges();
+                    MessageBox.Show("Datos modificados", "Edición", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     dataSet11.WriteXml(path + "\\data.xml");
                 }
                 else
                 {
-                    MessageBox.Show("No se modificaron los datos", "Busqueda", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("No se modificaron los datos", "Edición", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             else
