@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\bin\Debug\WinAppServer.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\bin\Debug\WinAppServer.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\bin\Debug\WinAppServer.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\obj\Debug\WinAppServer.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\obj\Debug\WinAppServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\obj\Debug\WinAppServer.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\obj\Debug\WinAppServer.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\obj\Debug\WinAppServer.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\obj\Debug\WinAppServer.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\obj\Debug\WinAppServer.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppServer\obj\Debug\WinAppServer.pdb

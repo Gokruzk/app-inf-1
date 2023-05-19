@@ -1,0 +1,11 @@
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\obj\Debug\WinAppCliente.csproj.AssemblyReference.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\obj\Debug\WinAppCliente.csproj.SuggestedBindingRedirects.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\obj\Debug\WinAppCliente.Form1.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\obj\Debug\WinAppCliente.Properties.Resources.resources
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\obj\Debug\WinAppCliente.csproj.GenerateResource.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\obj\Debug\WinAppCliente.csproj.CoreCompileInputs.cache
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\bin\Debug\WinAppCliente.exe.config
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\bin\Debug\WinAppCliente.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\bin\Debug\WinAppCliente.pdb
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\obj\Debug\WinAppCliente.exe
+C:\Users\nigel\workspace\app-inf-1-csharp\PRUEBAS\WinAppCliente\obj\Debug\WinAppCliente.pdb
