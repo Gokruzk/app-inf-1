@@ -39,7 +39,7 @@
             this.TxtAge = new System.Windows.Forms.TextBox();
             this.BtnUpdate = new System.Windows.Forms.Button();
             this.dataSet11 = new WinAppFile.DataSet1();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnCancel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).BeginInit();
             this.SuspendLayout();
             // 
@@ -141,22 +141,22 @@
             this.dataSet11.DataSetName = "DataSet1";
             this.dataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // button1
+            // BtnCancel
             // 
-            this.button1.Location = new System.Drawing.Point(289, 362);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "CANCELAR";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BtnCancel.Location = new System.Drawing.Point(289, 362);
+            this.BtnCancel.Name = "BtnCancel";
+            this.BtnCancel.Size = new System.Drawing.Size(75, 23);
+            this.BtnCancel.TabIndex = 15;
+            this.BtnCancel.Text = "CANCELAR";
+            this.BtnCancel.UseVisualStyleBackColor = true;
+            this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // UpdateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(540, 417);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnCancel);
             this.Controls.Add(this.BtnUpdate);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.TxtAge);
@@ -189,6 +189,6 @@
         private System.Windows.Forms.TextBox TxtAge;
         private System.Windows.Forms.Button BtnUpdate;
         private DataSet1 dataSet11;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnCancel;
     }
 }

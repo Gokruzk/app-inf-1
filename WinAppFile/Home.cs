@@ -48,7 +48,7 @@ namespace WinAppFile
                     {
                         if (data[0]["psw"].ToString() == TxtPsw.Text)
                         {
-                            FrmBuscar obj = new FrmBuscar();
+                            FrmBuscar obj = new FrmBuscar(0);
                             obj.ShowDialog();
                         }
                         else

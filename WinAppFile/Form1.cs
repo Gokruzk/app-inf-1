@@ -42,20 +42,31 @@ namespace WinAppFile
 
         private void buscarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmBuscar obj = new FrmBuscar();
+            FrmBuscar obj = new FrmBuscar(0);
             obj.ShowDialog();
         }
 
         private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmBuscar obj = new FrmBuscar();
+            FrmBuscar obj = new FrmBuscar(1);
             obj.ShowDialog();
         }
 
         private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DeleteForm obj = new DeleteForm();
+            FrmBuscar obj = new FrmBuscar(2);
             obj.ShowDialog();
+        }
+
+        private void reporteEstudianteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmReporte obj = new FrmReporte();
+            obj.ShowDialog();
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(path + "\\AYUDA.htm");
         }
     }
 }

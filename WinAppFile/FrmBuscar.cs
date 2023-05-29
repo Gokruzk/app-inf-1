@@ -12,9 +12,11 @@ namespace WinAppFile
 {
     public partial class FrmBuscar : Form
     {
-        public FrmBuscar()
+        int op;
+        public FrmBuscar(int op)
         {
             InitializeComponent();
+            this.op = op;
         }
 
         private void BtnSearch_Click(object sender, EventArgs e)
@@ -30,17 +32,38 @@ namespace WinAppFile
 
             if (vecData.Length > 0)
             {
-                UpdateForm obj = new UpdateForm(vecData);
-                if(obj.ShowDialog() == DialogResult.OK)
+                if(op == 0) //mostrar
                 {
-                    obj.Devolver(data);
-                    data[0].AcceptChanges();
-                    MessageBox.Show("Datos modificados", "Edición", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    dataSet11.WriteXml(path + "\\data.xml");
+                    FrmMostrar obj = new FrmMostrar(data);
+                    obj.ShowDialog();
                 }
-                else
+                if(op == 1) //update
                 {
-                    MessageBox.Show("No se modificaron los datos", "Edición", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    UpdateForm obj = new UpdateForm(vecData);
+                    if(obj.ShowDialog() == DialogResult.OK)
+                    {
+                        obj.Devolver(data);
+                        data[0].AcceptChanges();
+                        MessageBox.Show("Datos modificados", "Edición", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        dataSet11.WriteXml(path + "\\data.xml");
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se modificaron los datos", "Edición", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }else if(op == 2)   //delete
+                {
+                    DeleteForm obj = new DeleteForm(data);
+                    if (obj.ShowDialog() == DialogResult.OK)
+                    {
+                        data[0].Delete();
+                        dataSet11.WriteXml(path + "\\data.xml");
+                        MessageBox.Show("Estudiante eliminado", "Eliminación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se eliminó al estudiante", "Eliminación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
                 }
             }
             else

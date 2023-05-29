@@ -13,9 +13,13 @@ namespace WinAppFile
 {
     public partial class DeleteForm : Form
     {
-        public DeleteForm()
+        public DeleteForm(DataRow[] data)
         {
             InitializeComponent();
+            TxtCode.Text = data[0]["Codigo"].ToString();
+            TxtName.Text = data[0]["Nombre"].ToString();
+            TxtLastName.Text = data[0]["Apellido"].ToString();
+            TxtAge.Text = data[0]["Edad"].ToString();
         }
 
         private void BtnSearch_Click(object sender, EventArgs e)
@@ -37,6 +41,17 @@ namespace WinAppFile
             {
                 MessageBox.Show("No se encuentra el usuario", "Busqueda", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void BtnCancel_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
+            Close();
+        }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.OK;
         }
     }
 }

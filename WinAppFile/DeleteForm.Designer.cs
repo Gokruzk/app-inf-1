@@ -37,9 +37,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.TxtCode = new System.Windows.Forms.TextBox();
-            this.BtnSearch = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnDelete = new System.Windows.Forms.Button();
             this.dataSet11 = new WinAppFile.DataSet1();
+            this.BtnCancel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,6 +58,7 @@
             this.TxtAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtAge.Location = new System.Drawing.Point(188, 314);
             this.TxtAge.Name = "TxtAge";
+            this.TxtAge.ReadOnly = true;
             this.TxtAge.Size = new System.Drawing.Size(176, 26);
             this.TxtAge.TabIndex = 22;
             // 
@@ -76,6 +77,7 @@
             this.TxtLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtLastName.Location = new System.Drawing.Point(188, 271);
             this.TxtLastName.Name = "TxtLastName";
+            this.TxtLastName.ReadOnly = true;
             this.TxtLastName.Size = new System.Drawing.Size(176, 26);
             this.TxtLastName.TabIndex = 20;
             // 
@@ -94,6 +96,7 @@
             this.TxtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtName.Location = new System.Drawing.Point(188, 219);
             this.TxtName.Name = "TxtName";
+            this.TxtName.ReadOnly = true;
             this.TxtName.Size = new System.Drawing.Size(176, 26);
             this.TxtName.TabIndex = 18;
             // 
@@ -122,39 +125,42 @@
             this.TxtCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtCode.Location = new System.Drawing.Point(188, 166);
             this.TxtCode.Name = "TxtCode";
+            this.TxtCode.ReadOnly = true;
             this.TxtCode.Size = new System.Drawing.Size(176, 26);
             this.TxtCode.TabIndex = 15;
             // 
-            // BtnSearch
+            // BtnDelete
             // 
-            this.BtnSearch.Location = new System.Drawing.Point(400, 172);
-            this.BtnSearch.Name = "BtnSearch";
-            this.BtnSearch.Size = new System.Drawing.Size(75, 23);
-            this.BtnSearch.TabIndex = 14;
-            this.BtnSearch.Text = "BUSCAR";
-            this.BtnSearch.UseVisualStyleBackColor = true;
-            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(400, 201);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "ELIMINAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnDelete.Location = new System.Drawing.Point(188, 370);
+            this.BtnDelete.Name = "BtnDelete";
+            this.BtnDelete.Size = new System.Drawing.Size(75, 23);
+            this.BtnDelete.TabIndex = 24;
+            this.BtnDelete.Text = "ELIMINAR";
+            this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // dataSet11
             // 
             this.dataSet11.DataSetName = "DataSet1";
             this.dataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // BtnCancel
+            // 
+            this.BtnCancel.Location = new System.Drawing.Point(269, 370);
+            this.BtnCancel.Name = "BtnCancel";
+            this.BtnCancel.Size = new System.Drawing.Size(75, 23);
+            this.BtnCancel.TabIndex = 25;
+            this.BtnCancel.Text = "CANCELAR";
+            this.BtnCancel.UseVisualStyleBackColor = true;
+            this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
+            // 
             // DeleteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(540, 417);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnCancel);
+            this.Controls.Add(this.BtnDelete);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.TxtAge);
             this.Controls.Add(this.label4);
@@ -164,7 +170,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtCode);
-            this.Controls.Add(this.BtnSearch);
             this.Name = "DeleteForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DeleteForm";
@@ -185,8 +190,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox TxtCode;
-        private System.Windows.Forms.Button BtnSearch;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnDelete;
         private DataSet1 dataSet11;
+        private System.Windows.Forms.Button BtnCancel;
     }
 }
