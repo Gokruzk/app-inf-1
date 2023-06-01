@@ -1,32 +1,28 @@
 ﻿using CEntidades;
 using MySql.Data;
 using MySql.Data.MySqlClient;
+using System;
 using System.Data.SqlClient;
 
 namespace CDatos
 {
     public class CBD
     {
-        public string cadena = "Data Source = DESKTOP-2U77OBE\\SQLEXPRESS01; Initial Catalog = ESTUDIANTES; Integrated Security = True";
-        public MySqlConnection connect = new MySqlConnection();
-        public CBD() 
+        public string cadena = "Data Source=DESKTOP-2U77OBE\\SQLEXPRESS01;Initial Catalog=ESTUDIANTE;User ID=sa;Password=kb234fmnfkps";
+        public SqlConnection connect = new SqlConnection();
+        public CBD()
         {
+            //connect.ConnectionString = Properties.Settings.Default.stringConnection;
             connect.ConnectionString = cadena;
+
         }
         public void Abrir()
         {
-            try
-            {
-                connect.Open();
-                Console.WriteLine("Connection Open");
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
+           connect.Open();
+           Console.WriteLine("Connection Open");
         }
 
-        public void Cerrar() 
+        public void Cerrar()
         {
             try
             {
