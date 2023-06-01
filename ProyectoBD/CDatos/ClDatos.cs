@@ -10,6 +10,8 @@ using System.Data.SqlClient;
 using System.Windows.Forms;
 using System.Data;
 using System.Xml.Linq;
+using System.Collections;
+using Org.BouncyCastle.Utilities.Collections;
 
 namespace CDatos
 {
@@ -75,6 +77,22 @@ namespace CDatos
             }
         }
 
+        public void Update(Entidades DatosEst)
+        {
+            try
+            {
+                objBD.Abrir();
+                string query = "UPDATE TblDatos SET Nombre = '" + DatosEst.NombreE + "', Apellido = '" + DatosEst.ApellidoE + "' WHERE idESTU = '" + DatosEst.idEstu + "'";
+                SqlCommand sql = new SqlCommand(query, objBD.connect);
+                sql.ExecuteNonQuery();
+                objBD.Cerrar();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+        }
+
         public Entidades Search(int id)
         {
             Entidades DatosEst = new Entidades();
@@ -106,6 +124,27 @@ namespace CDatos
                 MessageBox.Show(e.Message);
             }
             return DatosEst;
+        }
+
+        public SqlDataAdapter SearchAll()
+        {
+            Entidades DatosEst = new Entidades();
+            SqlDataAdapter adp = new SqlDataAdapter("", objBD.connect);
+            try
+            {
+                objBD.Abrir();
+                string query = "SELECT * FROM TblDatos";
+                adp = new SqlDataAdapter(query, objBD.connect);
+                DataTable dt = new DataTable();
+                adp.Fill(dt);
+                objBD.Cerrar();
+            }
+            catch (Exception e)
+            {
+                objBD.Cerrar();
+                MessageBox.Show(e.Message);
+            }
+                return adp;
         }
     }
 }

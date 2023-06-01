@@ -8,7 +8,7 @@ namespace CDatos
 {
     public class CBD
     {
-        public string cadena = "Data Source=DESKTOP-2U77OBE\\SQLEXPRESS01;Initial Catalog=ESTUDIANTE;User ID=sa;Password=kb234fmnfkps";
+        public string cadena = "Data Source=DESKTOP-2U77OBE\\SQLEXPRESS;Initial Catalog=ESTUDIANTE;User ID=sa;Password=nigell123";
         public SqlConnection connect = new SqlConnection();
         public CBD()
         {

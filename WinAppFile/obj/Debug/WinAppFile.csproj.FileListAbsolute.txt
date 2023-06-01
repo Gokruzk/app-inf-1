@@ -31,10 +31,6 @@ C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\SqlServerTypes\x6
 C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
 C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\SqlServerTypes\x86\msvcr120.dll
 C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
-C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\CrystalDecisions.ReportSource.dll
-C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\CrystalDecisions.Shared.dll
-C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\CrystalDecisions.Windows.Forms.dll
 C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\nigel\workspace\app-inf-1-csharp\WinAppFile\bin\Debug\Microsoft.ReportViewer.Design.dll

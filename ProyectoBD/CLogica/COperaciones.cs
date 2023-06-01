@@ -1,6 +1,7 @@
 ﻿using CDatos;
 using CEntidades;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 
 namespace CLogica
 {
@@ -24,10 +25,20 @@ namespace CLogica
             objCD.Delete(id);
         }
 
+        public void UpdateData(Entidades data)
+        {
+            objCD.Update(data);
+        }
+
         public Entidades SearchData(int id)
         {
             Entidades objEnt = new Entidades();
             return objCD.Search(id);
+        }
+
+        public SqlDataAdapter SearchDataAll()
+        {
+            return objCD.SearchAll();
         }
     }
 }

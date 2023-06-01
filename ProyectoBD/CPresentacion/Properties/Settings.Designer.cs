@@ -53,5 +53,16 @@ namespace CPresentacion.Properties {
                 return ((string)(this["ESTUDIANTEConnectionString2"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-2U77OBE\\SQLEXPRESS;Initial Catalog=ESTUDIANTE;Persist Securit" +
+            "y Info=True;User ID=sa")]
+        public string ESTUDIANTEConnectionString3 {
+            get {
+                return ((string)(this["ESTUDIANTEConnectionString3"]));
+            }
+        }
     }
 }

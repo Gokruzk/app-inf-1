@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Xml.Linq;
 using CEntidades;
 using CLogica;
 
@@ -17,31 +19,57 @@ namespace CPresentacion
             InitializeComponent();
         }
 
-        COperaciones objOp = new COperaciones();
+        COperaciones objOP = new COperaciones();
+        Entidades objEnt = new Entidades();
+
+
+        public void RefreshDataGrid(DataGridView d)
+        {
+            try
+            {
+                SqlDataAdapter adp = new SqlDataAdapter();
+                adp = objOP.SearchDataAll();
+                DataTable dt = new DataTable();
+                adp.Fill(dt);
+                d.DataSource = dt;
+            }
+            catch
+            {
+                MessageBox.Show("No hay datos", "Datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'eSTUDIANTEDataSet.TblDatos' table. You can move, or remove it, as needed.
-            this.tblDatosTableAdapter.Fill(this.eSTUDIANTEDataSet.TblDatos);
-
-            //List<Entidades> DatosEstu
+            RefreshDataGrid(dataGridView1);
         }
 
         private void StripIngresar_Click(object sender, EventArgs e)
         {
-            FrmIngresar obj = new FrmIngresar();
+            FrmRegister obj = new FrmRegister();
             obj.ShowDialog();
         }
 
         private void StripEliminar_Click(object sender, EventArgs e)
         {
-            FrmEliminar obj = new FrmEliminar();
+            FrmDelete obj = new FrmDelete();
             obj.ShowDialog();
         }
 
         private void StripBuscar_Click(object sender, EventArgs e)
         {
-            FrmBuscar obj = new FrmBuscar();
+            FrmSearch obj = new FrmSearch();
+            obj.ShowDialog();
+        }
+
+        private void BtnRefresh_Click(object sender, EventArgs e)
+        {
+            RefreshDataGrid(dataGridView1);
+        }
+
+        private void StripUpdate_Click(object sender, EventArgs e)
+        {
+            FrmUpdate obj = new FrmUpdate();
             obj.ShowDialog();
         }
     }

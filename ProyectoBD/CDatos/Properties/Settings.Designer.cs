@@ -26,8 +26,8 @@ namespace CDatos.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-2U77OBE\\SQLEXPRESS01;Initial Catalog=ESTUDIANTE;User ID=sa;Pa" +
-            "ssword=kb234fmnfkps")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-2U77OBE\\SQLEXPRESS;Initial Catalog=ESTUDIANTE;Persist Securit" +
+            "y Info=True;User ID=sa;Password=nigell123")]
         public string stringConnection {
             get {
                 return ((string)(this["stringConnection"]));
