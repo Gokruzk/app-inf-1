@@ -111,6 +111,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnSearch);
             this.Name = "FrmSearch";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmBuscar";
             this.ResumeLayout(false);
             this.PerformLayout();
