@@ -105,7 +105,7 @@ namespace CDatos
 
                 SqlDataReader reader = sql.ExecuteReader();
 
-                while (reader.Read())
+                if (reader.Read())
                 {
                     Entidades objEnt = new Entidades()
                     {

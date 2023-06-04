@@ -72,5 +72,11 @@ namespace CPresentacion
             FrmUpdate obj = new FrmUpdate();
             obj.ShowDialog();
         }
+
+        private void StripReport_Click(object sender, EventArgs e)
+        {
+            FrmReport obj = new FrmReport();
+            obj.ShowDialog();
+        }
     }
 }

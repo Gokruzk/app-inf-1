@@ -77,5 +77,10 @@ namespace CPresentacion
             TxtName.Clear();
             TxtLastName.Clear();
         }
+
+        private void TxtId_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            BtnSearch_Click(sender, e);
+        }
     }
 }

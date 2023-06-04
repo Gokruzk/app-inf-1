@@ -36,7 +36,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 64);
+            this.label1.Location = new System.Drawing.Point(101, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(18, 13);
             this.label1.TabIndex = 8;
@@ -44,7 +44,7 @@
             // 
             // BtnDelete
             // 
-            this.BtnDelete.Location = new System.Drawing.Point(171, 113);
+            this.BtnDelete.Location = new System.Drawing.Point(135, 112);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Size = new System.Drawing.Size(75, 23);
             this.BtnDelete.TabIndex = 7;
@@ -54,21 +54,21 @@
             // 
             // TxtId
             // 
-            this.TxtId.Location = new System.Drawing.Point(171, 61);
+            this.TxtId.Location = new System.Drawing.Point(135, 61);
             this.TxtId.Name = "TxtId";
             this.TxtId.Size = new System.Drawing.Size(100, 20);
             this.TxtId.TabIndex = 5;
             this.TxtId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtId_KeyPress);
             // 
-            // FrmEliminar
+            // FrmDelete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 274);
+            this.ClientSize = new System.Drawing.Size(359, 181);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnDelete);
             this.Controls.Add(this.TxtId);
-            this.Name = "FrmEliminar";
+            this.Name = "FrmDelete";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmEliminar";
             this.ResumeLayout(false);
