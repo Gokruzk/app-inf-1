@@ -29,35 +29,43 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.eSTUDIANTEDataSet = new CPresentacion.ESTUDIANTEDataSet();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.eSTUDIANTEDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.eSTUDIANTEDataSet)).BeginInit();
+            this.eSTUDIANTEDataSet = new CPresentacion.ESTUDIANTEDataSet();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.tblDatosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.eSTUDIANTEDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.eSTUDIANTEDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblDatosBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // reportViewer1
+            // eSTUDIANTEDataSetBindingSource
             // 
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.eSTUDIANTEDataSetBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "CPresentacion.Report1.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(176, 49);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(396, 246);
-            this.reportViewer1.TabIndex = 0;
+            this.eSTUDIANTEDataSetBindingSource.DataSource = this.eSTUDIANTEDataSet;
+            this.eSTUDIANTEDataSetBindingSource.Position = 0;
             // 
             // eSTUDIANTEDataSet
             // 
             this.eSTUDIANTEDataSet.DataSetName = "ESTUDIANTEDataSet";
             this.eSTUDIANTEDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // eSTUDIANTEDataSetBindingSource
+            // reportViewer1
             // 
-            this.eSTUDIANTEDataSetBindingSource.DataSource = this.eSTUDIANTEDataSet;
-            this.eSTUDIANTEDataSetBindingSource.Position = 0;
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource2.Name = "DataSet1";
+            reportDataSource2.Value = this.tblDatosBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "CPresentacion.Report1.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(800, 450);
+            this.reportViewer1.TabIndex = 0;
+            // 
+            // tblDatosBindingSource
+            // 
+            this.tblDatosBindingSource.DataMember = "TblDatos";
+            this.tblDatosBindingSource.DataSource = this.eSTUDIANTEDataSet;
             // 
             // FrmReport
             // 
@@ -68,8 +76,9 @@
             this.Name = "FrmReport";
             this.Text = "FrmReport";
             this.Load += new System.EventHandler(this.FrmReport_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.eSTUDIANTEDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eSTUDIANTEDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.eSTUDIANTEDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblDatosBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -79,5 +88,6 @@
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private System.Windows.Forms.BindingSource eSTUDIANTEDataSetBindingSource;
         private ESTUDIANTEDataSet eSTUDIANTEDataSet;
+        private System.Windows.Forms.BindingSource tblDatosBindingSource;
     }
 }

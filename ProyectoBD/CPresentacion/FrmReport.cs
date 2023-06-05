@@ -19,7 +19,7 @@ namespace CPresentacion
 
         private void FrmReport_Load(object sender, EventArgs e)
         {
-            this.reportViewer1.RefreshReport();
+            // TODO: This line of code loads data into the 'eSTUDIANTEDataSet.TblDatos' table. You can move, or remove it, as needed.
             this.reportViewer1.RefreshReport();
         }
     }
