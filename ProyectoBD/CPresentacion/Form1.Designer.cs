@@ -37,12 +37,9 @@
             this.StripUpdate = new System.Windows.Forms.ToolStripMenuItem();
             this.StripReport = new System.Windows.Forms.ToolStripMenuItem();
             this.BtnRefresh = new System.Windows.Forms.Button();
-            this.eSTUDIANTEDataSet = new CPresentacion.ESTUDIANTEDataSet();
-            this.eSTUDIANTEDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+           
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.eSTUDIANTEDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.eSTUDIANTEDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -112,16 +109,7 @@
             this.BtnRefresh.Text = "Actualizar Tabla";
             this.BtnRefresh.UseVisualStyleBackColor = true;
             this.BtnRefresh.Click += new System.EventHandler(this.BtnRefresh_Click);
-            // 
-            // eSTUDIANTEDataSet
-            // 
-            this.eSTUDIANTEDataSet.DataSetName = "ESTUDIANTEDataSet";
-            this.eSTUDIANTEDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // eSTUDIANTEDataSetBindingSource
-            // 
-            this.eSTUDIANTEDataSetBindingSource.DataSource = this.eSTUDIANTEDataSet;
-            this.eSTUDIANTEDataSetBindingSource.Position = 0;
+            
             // 
             // Form1
             // 
@@ -139,8 +127,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.eSTUDIANTEDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.eSTUDIANTEDataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -161,8 +147,6 @@
         private System.Windows.Forms.Button BtnRefresh;
         private System.Windows.Forms.ToolStripMenuItem StripUpdate;
         private System.Windows.Forms.ToolStripMenuItem StripReport;
-        private System.Windows.Forms.BindingSource eSTUDIANTEDataSetBindingSource;
-        private ESTUDIANTEDataSet eSTUDIANTEDataSet;
     }
 }
 

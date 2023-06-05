@@ -20,8 +20,6 @@ namespace CPresentacion
         }
 
         COperaciones objOP = new COperaciones();
-        Entidades objEnt = new Entidades();
-
 
         public void RefreshDataGrid(DataGridView d)
         {
