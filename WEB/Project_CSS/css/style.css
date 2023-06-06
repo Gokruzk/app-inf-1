@@ -1,0 +1,93 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin: 0;
+}
+body{
+    background-color: rgb(139, 160, 103);
+}
+div{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+h1{
+    color: azure;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    color:white;
+}
+
+#parrafoAmarillo{
+    color: yellow;
+}
+#parrafoVerde{
+    color: green;
+}
+.loquesea{
+    color: blue;
+}
+nav{
+    background-color: gray;
+    width: 100%;
+}
+.menu{
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu a{
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+.menu a:hover{
+    color: blue;
+    transition-duration: 1000ms;
+}
+.gray{
+    background-color: aquamarine;
+    overflow: hidden;
+    color: blueviolet;
+    text-align: center;
+    padding: 100px;
+}
+
+.image{
+    height: 100px;
+    background: url("../img/foto.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}   
+
+.columns .leftColumn{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: black;
+}
+
+.columns .rightColum{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: blueviolet;
+}
+
+.footer{
+    margin: 0;
+    background-color: aliceblue;
+    color: gold;
+    text-align: center;
+}
