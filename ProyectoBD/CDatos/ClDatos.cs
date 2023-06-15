@@ -1,17 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CEntidades;
-using MySql.Data;
-using MySql.Data.MySqlClient;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 using System.Data;
-using System.Xml.Linq;
-using System.Collections;
-using Org.BouncyCastle.Utilities.Collections;
 
 namespace CDatos
 {
