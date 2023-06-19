@@ -11,7 +11,6 @@ namespace CLogica
 
         public List<Entidades> Lista()
         {
-            //List<Entidades> = DatosEst = new List<Entidades>();
             return objCD.GetData();
         }
 
@@ -32,7 +31,6 @@ namespace CLogica
 
         public Entidades SearchData(int id)
         {
-            Entidades objEnt = new Entidades();
             return objCD.Search(id);
         }
 
