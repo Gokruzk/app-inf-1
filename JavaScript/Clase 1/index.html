@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 1</title>
+    <style>
+      * {
+        font-family: cascadia code;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ingrese un número</h1>
+    <form action="">
+      <fieldset>
+        <legend>Datos</legend>
+        <label style="cursor: pointer" for="num">Número 1: </label>
+        <input id="num" type="text" placeholder="número" />
+        <br />
+        <br />
+        <label style="cursor: pointer" for="">El número ingresado es: </label>
+        <br />
+        <br />
+        <label for="" id="answer"></label>
+        <br />
+        <br />
+        <input style="cursor: pointer" value="Enviar" onclick="data()" type="button">
+      </fieldset>
+      <fieldset>
+        <legend>Area circunferencia</legend>
+        <label style="cursor: pointer" for="num">Radio: </label>
+        <input id="num2" type="text" placeholder="número" />
+        <br />
+        <br />
+        <label style="cursor: pointer" for="">El area de la circuferencia es: </label>
+        <br />
+        <br />
+        <label for="" id="answe2"></label>
+        <br />
+        <br />
+        <input style="cursor: pointer" value="Enviar" onclick="areaCir()" type="button">
+      </fieldset>
+      <fieldset>
+        <legend>Invertir numero</legend>
+        <label style="cursor: pointer" for="num3">Número: </label>
+        <input id="num3" type="text" placeholder="número" />
+        <br />
+        <br />
+        <label style="cursor: pointer" for="">Número invertido: </label>
+        <br />
+        <br />
+        <label for="" id="ans3"></label>
+        <br />
+        <br />
+        <input style="cursor: pointer" value="Enviar" onclick="otra()" type="button">
+      </fieldset>
+    </form>
+    <script src="./app.js"></script>
+  </body>
+</html>

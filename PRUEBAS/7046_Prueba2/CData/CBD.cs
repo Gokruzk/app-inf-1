@@ -9,7 +9,7 @@ namespace CData
 {
     public class CBD
     {
-        readonly string BDD = "PRODUCTOS";
+        readonly string BDD = "DatosProduc";
         public string SERVER = "DESKTOP-2U77OBE\\SQLEXPRESS", PSW = "nigel123";
         public string cadena;
         public SqlConnection connect = new SqlConnection();
