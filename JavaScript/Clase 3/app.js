@@ -40,12 +40,7 @@ function readNums() {
 
 function calc() {
   if (readNums()) {
-    let may = encontrarMayor(n1, n2, n3);
-    document.getElementById("ans").innerHTML = `El número mayor es ${may}`;
+    document.getElementById("ans").innerHTML = `El número mayor es ${encontrarMayor(n1, n2, n3)}`;
   }
 }
-
-$('.navbar-collapse').on('click', function () {
-  $(this).toggleClass('show');
-});
 
