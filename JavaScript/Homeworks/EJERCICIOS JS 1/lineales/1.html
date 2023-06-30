@@ -27,27 +27,17 @@
       incidencia del sol en ese momento.
     </p>
     <form>
-      <div class="form-group">
-        <label for="n1">Altura del poste (m)</label>
-        <input
-          type="text"
-          class="form-control"
-          id="n1"
-          placeholder="Número 1"
-        />
+      <div class="input-group">
+        <input type="text" required="" id="n1" class="input">
+        <label class="user-label">Altura del poste (m)</label>
       </div>
-      <div class="form-group">
-        <label for="n2">Largo de la sombra (m)</label>
-        <input
-          type="text"
-          class="form-control"
-          id="n2"
-          placeholder="Número 2"
-        />
+      <div class="input-group">
+        <input type="text" required="" id="n2" class="input">
+        <label class="user-label">Largo de la sombra (m)</label>
       </div>
-      <div class="form-group">
-        <label for="n3">Hora del día</label>
-        <input type="time" id="n3">
+      <div class="input-group">
+        <input type="time" required="" id="n3" class="input">
+        <label class="user-label"></label>
       </div>
       <button id="btn" type="submit" onclick="ej1()">Calcular</button>
       <button type="submit" onclick="">Limpiar</button>

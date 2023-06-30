@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <div style="padding: 30px;">
+        <button onclick="llenarTabla()">Llenar</button>
+        <button id="btn" type="button" onclick="calcularSumaTrianguloSuperior()">Calcular suma T superior</button>
+        <button id="btn" type="button" onclick="calcularSumaTrianguloInferior()">Calcular suma T inferior</button>
+        <button id="btn" type="button" onclick="calcularNumeroNulos()">Calcular números nulos</button>
+        <button id="btn" type="button" onclick="encontrarFilasImpares()">Filas con números impares</button>
+        <button id="btn" type="button" onclick="calcularPromedioTabla()">Promedio</button>
+    </div>
+    <table id="tabla">
+      <thead>
+        <tr>
+          <th>Columna 1</th>
+          <th>Columna 2</th>
+          <th>Columna 3</th>
+          <th>Columna 4</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <h1 class="hh"></h1>
+    <script src="app.js"></script>
+  </body>
+</html>
