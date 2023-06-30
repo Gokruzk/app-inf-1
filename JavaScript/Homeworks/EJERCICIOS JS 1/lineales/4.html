@@ -21,22 +21,37 @@
       </nav>
     </header>
     <p>
-      1. Un avión emplea 10 minutos para despegar del aeropuerto internacional
-      “Mariscal Sucre”, vuela de forma estable durante n minutos y emplea 15
-      segundos en aterrizar. Confecciona un programa para imprimir en qué fase
-      del vuelo se encuentra el avión a los t minutos del despegue. Imprima ,
-      además, la duración del vuelo en horas, minutos y segundos.
+      4.	Programa que calcula áreas de trapecios.
     </p>
     <form>
-      <div class="input-group">
-        <input type="text" required="" id="n1" class="input">
-        <label class="user-label">Tiempo de vuelo</label>
+      <div class="form-group">
+        <label for="n1">Base superior</label>
+        <input
+          type="text"
+          class="form-control"
+          id="n1"
+          placeholder="Número"
+        />
       </div>
-      <div class="input-group">
-        <input type="text" required="" id="n2" class="input">
-        <label class="user-label">Tiempo transcurrido</label>
+      <div class="form-group">
+        <label for="n2">Base inferior</label>
+        <input
+          type="text"
+          class="form-control"
+          id="n2"
+          placeholder="Número"
+        />
       </div>
-      <button id="btn" type="submit" onclick="ej6()">Calcular</button>
+      <div class="form-group">
+        <label for="n3">Altura</label>
+        <input
+          type="text"
+          class="form-control"
+          id="n3"
+          placeholder="Número"
+        />
+      </div>
+      <button id="btn" type="submit" onclick="ej4()">Calcular</button>
       <button type="submit" onclick="">Limpiar</button>
       <div class="form-group" style="padding-top: 10px">
         <label for="" id="ans"></label>
