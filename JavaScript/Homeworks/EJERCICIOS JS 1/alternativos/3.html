@@ -21,22 +21,32 @@
       </nav>
     </header>
     <p>
-      3.	Confeccione un programa para calcular las raíces reales de una ecuación de la forma ax<sup>2</sup> + bx +c
+      3. Confeccione un programa para calcular las raíces reales de una ecuación
+      de la forma ax<sup>2</sup> + bx +c
     </p>
     <form>
-      <div class="input-group">
-        <input type="text" required="" id="a" class="input">
-        <label class="user-label">a</label>
-      </div>
-      <div class="input-group">
-        <input type="text" required="" id="b" class="input">
-        <label class="user-label">b</label>
-      </div>
-      <div class="input-group">
-        <input type="text" required="" id="c" class="input">
-        <label class="user-label">c</label>
-      </div>
-      <button id="btn" type="submit" onclick="ej8()">Calcular</button>
+      <my-input
+        id="a"
+        class-i="input"
+        class-l="user-label"
+        class-d="input-group"
+        >a</my-input
+      >
+      <my-input
+        id="b"
+        class-i="input"
+        class-l="user-label"
+        class-d="input-group"
+        >Día</my-input
+      >
+      <my-input
+        id="c"
+        class-i="input"
+        class-l="user-label"
+        class-d="input-group"
+        >c</my-input
+      >
+      <button id="btn" type="submit" onclick="ej7()">Calcular</button>
       <button type="submit" onclick="">Limpiar</button>
       <div class="form-group" style="padding-top: 10px">
         <label for="" id="ans"></label>

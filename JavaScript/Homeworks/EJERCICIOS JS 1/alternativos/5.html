@@ -21,23 +21,40 @@
       </nav>
     </header>
     <p>
-      5.	Calcule la edad de una persona conociendo su fecha de nacimiento en día, mes y año
+      5. Calcule la edad de una persona conociendo su fecha de nacimiento en
+      día, mes y año
     </p>
     <form>
-      <div class="input-group">
-        <input type="text" required="" id="day" class="input">
-        <label class="user-label">Día</label>
-      </div>
-      <div class="input-group">
-        <input type="text" required="" id="month" class="input">
-        <label class="user-label">Mes</label>
-      </div>
-      <div class="input-group">
-        <input type="text" required="" id="year" class="input">
-        <label class="user-label">Año</label>
-      </div>
+      <my-input
+        id="day"
+        class-i="input"
+        class-l="user-label"
+        class-d="input-group"
+        >Día</my-input
+      >
+      <my-input
+        id="month"
+        class-i="input"
+        class-l="user-label"
+        class-d="input-group"
+        >Mes</my-input
+      >
+      <my-input
+        id="year"
+        class-i="input"
+        class-l="user-label"
+        class-d="input-group"
+        >Día</my-input
+      >
       <button id="btn" type="submit" onclick="ej9()">Calcular</button>
-      <button type="submit" onclick="">Limpiar</button>
+      <button
+        type="submit"
+        onclick="document.getElementById('day').value = ' ';
+      document.getElementById('month').value = ' ';
+      document.getElementById('year').value = ' ';"
+      >
+        Limpiar
+      </button>
       <div class="form-group" style="padding-top: 10px">
         <label for="" id="ans"></label>
       </div>

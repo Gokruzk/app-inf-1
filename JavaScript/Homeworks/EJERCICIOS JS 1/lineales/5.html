@@ -24,35 +24,20 @@
       5.	Programa que calcula el capital final de un interés simple.
     </p>
     <form>
-      <div class="form-group">
-        <label for="n1">Capital inicial</label>
-        <input
-          type="text"
-          class="form-control"
-          id="n1"
-          placeholder="$"
-        />
+      <div class="input-group">
+        <input type="text" required="" id="n1" class="input" />
+        <label class="user-label">Capital inicial</label>
       </div>
-      <div class="form-group">
-        <label for="n2">Tasa de interés (%)</label>
-        <input
-          type="text"
-          class="form-control"
-          id="n2"
-          placeholder="%"
-        />
+      <div class="input-group">
+        <input type="text" required="" id="n2" class="input" />
+        <label class="user-label">Tasa de interés</label>
       </div>
-      <div class="form-group">
-        <label for="n3">Tiempo (años)</label>
-        <input
-          type="text"
-          class="form-control"
-          id="n3"
-          placeholder="Años"
-        />
+      <div class="input-group">
+        <input type="text" required="" id="n3" class="input" />
+        <label class="user-label">Tiempo (años)</label>
       </div>
       <button id="btn" type="submit" onclick="ej5()">Calcular</button>
-      <button type="submit" onclick="">Limpiar</button>
+      <button type="submit" onclick="document.getElementById('n1').value = ' '; document.getElementById('n2').value = ' '; document.getElementById('n3').value = ' '">Limpiar</button>
       <div class="form-group" style="padding-top: 10px">
         <label for="" id="ans"></label>
       </div>
