@@ -78,6 +78,16 @@ fieldset {
   width: 75%;
 }
 
+img{
+  width: 40%;
+  margin: 10px;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+
 .input-group {
   position: relative;
   margin: 0 0 20px 0;
