@@ -23,7 +23,7 @@
     <p>
       8. En una gasolinera se instala un detector para controlar la cantidad de
       litros de gasolina que va despachando el pistero. Se conoce que al
-      comenzar el turo de trabajo en el tanque de gasolina hay N litros.
+      comenzar el turno de trabajo en el tanque de gasolina hay N litros.
       Confeccione un programa para conocer constantemente.
     </p>
     <ul>
@@ -34,21 +34,28 @@
       </li>
       <li>Cuál es la mayor cantidad de gasolina despachada a un vehículo</li>
     </ul>
-    <form>
+    <div style="margin-left: 20px">
       <my-input
         id="n0"
         class-i="input"
         class-l="user-label"
         class-d="input-group"
-        >Web Component</my-input
+        >Litros de gasolina</my-input
       >
-      <button id="btn" type="submit" onclick="eja(true)">Llenar</button>
-      <button id="btn" type="submit" onclick="eja(false)">Detener</button>
-      <button type="submit" onclick="">Limpiar</button>
-      <div class="form-group" style="padding-top: 10px">
-        <label for="" id="ans"></label>
-      </div>
-    </form>
+    </div>
+    <div class="form-group" style="margin: 10px 0 10px 20px">
+      <label for="" id="ans"></label>
+    </div>
+    <div class="form-group" style="margin: 10px 0 10px 20px">
+      <label for="" id="ans2"></label>
+    </div>
+    <div class="btns" style="margin-left: 20px">
+      <button id="btn" type="submit" onclick="start()">Llenar</button>
+      <button id="btn" type="submit" onclick="stop()">Detener</button>
+      <button id="calc" type="submit" style="display: none" onclick="exe1()">
+        Cerrar
+      </button>
+    </div>
     <script src="app.js"></script>
     <script src="../../app.js"></script>
     <script src="../../components/MyInput.js"></script>

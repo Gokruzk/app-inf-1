@@ -16,7 +16,7 @@
     <header>
       <nav>
         <ul>
-          <li><a href="../index.html">EJERCICIOS JAVASCRIPT</a></li>
+          <li><a href="../../index.html">EJERCICIOS JAVASCRIPT</a></li>
         </ul>
       </nav>
     </header>
@@ -41,19 +41,76 @@
       </li>
     </ul>
     <center>
-      <div class="img-container">
-        <img src="../assets/1.jpg" alt="" />
-        <img src="../assets/2.jpg" alt="" />
-      </div>
-      <div class="form-group" style="padding-top: 10px">
-        <label for="" id="ans"></label>
-      </div>
-      <button style="margin: 20px" id="btn" type="submit" onclick="">
-        Calcular
+      <fieldset>
+        <legend>Investigador</legend>
+          <my-input
+            id="name"
+            pattern="[A-Za-z]+"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            >Nombre</my-input
+          >
+        <fieldset>
+          <legend>Mediciones</legend>
+          <my-input
+            id="monday"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            min="0"
+            max="10"
+            >Lunes</my-input
+          >
+          <my-input
+            id="tuesday"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            min="0"
+            max="10"
+            >Martes</my-input
+          >
+          <my-input
+            id="wednesday"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            min="0"
+            max="10"
+            >Miércoles</my-input
+          >
+          <my-input
+            id="thursday"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            min="0"
+            max="10"
+            >Jueves</my-input
+          >
+          <my-input
+            id="friday"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            min="0"
+            max="10"
+            >Viernes</my-input
+          >
+        </fieldset>
+      </fieldset>
+      <button
+        style="margin: 10px 0px 30px 0"
+        id="btn"
+        type="submit"
+        onclick="exe1()"
+      >
+        Agregar investigador
       </button>
     </center>
+    <div id="tabla-container"></div>
     <script src="app.js"></script>
-    <script src="../../app.js"></script>
     <script src="../../components/MyInput.js"></script>
   </body>
 </html>

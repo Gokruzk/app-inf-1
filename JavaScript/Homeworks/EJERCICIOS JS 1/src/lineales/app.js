@@ -63,11 +63,12 @@ function ej1() {
   }
 }
 
+
+// 2.	Confeccione un programa para imprimir la parte fraccionaria de un número.
 function esDecimal(numero) {
   return numero % 1 !== 0;
 }
 
-// 2.	Confeccione un programa para imprimir la parte fraccionaria de un número.
 let n;
 function readNums2() {
   let f = true;
