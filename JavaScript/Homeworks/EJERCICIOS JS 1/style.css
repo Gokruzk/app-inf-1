@@ -239,7 +239,25 @@ button:hover::before {
   background-color: transparent;
 }
 
-fieldset{
+.tabla-estilos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.tabla-estilos th,
+.tabla-estilos td {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.tabla-estilos th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+fieldset {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,14 +268,15 @@ fieldset{
   color: white;
 }
 
-fieldset legend{
-  padding-left: 20px;
+fieldset legend {
+  padding: 0 5px 0 5px;
   width: 20%;
   background-color: transparent;
   color: white;
+  font-size: 20px;
 }
 
-my-input{
+my-input {
   margin: 5px;
 }
 

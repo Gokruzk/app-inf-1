@@ -10,6 +10,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="../../style.css" />
   </head>
   <body>
@@ -43,14 +44,14 @@
     <center>
       <fieldset>
         <legend>Investigador</legend>
-          <my-input
-            id="name"
-            pattern="[A-Za-z]+"
-            class-i="input"
-            class-l="user-label"
-            class-d="input-group"
-            >Nombre</my-input
-          >
+        <my-input
+          id="name"
+          pattern="[A-Za-z]+"
+          class-i="input"
+          class-l="user-label"
+          class-d="input-group"
+          >Nombre</my-input
+        >
         <fieldset>
           <legend>Mediciones</legend>
           <my-input
@@ -100,6 +101,21 @@
           >
         </fieldset>
       </fieldset>
+      <fieldset id="field" style="display: none">
+        <legend>Investigadores</legend>
+        <div id="tabla-container"></div>
+      </fieldset>
+      <fieldset id="field2" style="display: none">
+        <legend>Información</legend>
+        <label id="ans" style="width: 100%"></label>
+        <fieldset>
+          <legend>Mediciones</legend>
+          <div id="tabla-container2"></div>
+        </fieldset>
+      </fieldset>
+      <div id="cnv" style="display: none; align-items: center; width: 500px; height: 500px;">
+        <canvas id="mychart"></canvas>
+      </div>
       <button
         style="margin: 10px 0px 30px 0"
         id="btn"
@@ -108,8 +124,33 @@
       >
         Agregar investigador
       </button>
-    </center>
-    <div id="tabla-container"></div>
+      <button
+        style="margin: 10px 0px 30px 0; display: none"
+        id="btn"
+        class="temp"
+        type="submit"
+        onclick="lit2()"
+      >
+        Temperatura media
+      </button>
+      <button
+        style="margin: 10px 0px 30px 0; display: none"
+        id="btn"
+        class="graph"
+        type="submit"
+        onclick="graph()"
+      >
+        Gráfico
+      </button>
+      <button
+        style="margin: 10px 0px 30px 0"
+        id="btn"
+        type="submit"
+        onclick="location.reload()"
+      >
+        Limpiar
+      </button>
+    </center>    
     <script src="app.js"></script>
     <script src="../../components/MyInput.js"></script>
   </body>
