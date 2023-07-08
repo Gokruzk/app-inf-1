@@ -5,6 +5,10 @@
   box-sizing: border-box !important;
 }
 
+main {
+  height: 100%;
+}
+
 p {
   padding: 20px;
   text-align: justify;
@@ -170,11 +174,14 @@ button:hover::before {
   left: -30px;
 }
 
+button:active {
+  --color: rgb(170, 85, 85);
+}
+
 .inicio {
   min-height: calc(100vh - 60px);
   width: 100%;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
 }
 

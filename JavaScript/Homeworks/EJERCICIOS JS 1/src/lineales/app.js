@@ -63,7 +63,6 @@ function ej1() {
   }
 }
 
-
 // 2.	Confeccione un programa para imprimir la parte fraccionaria de un número.
 function esDecimal(numero) {
   return numero % 1 !== 0;
@@ -108,6 +107,10 @@ function readNums3() {
     alert("Ingrese un número");
     document.getElementById("n1").value = "";
     f = false;
+  } else if (x1 <= 0) {
+    alert("Ingrese un número mayor a 0");
+    document.getElementById("n1").value = "";
+    f = false;
   }
   return f;
 }
@@ -137,19 +140,19 @@ let o, p, q;
 function readNums4() {
   let f = true;
   const o = parseInt(document.getElementById("n1").value);
-  if (isNaN(o) || o < 0) {
+  if (isNaN(o) || o < 0 || o == "-0") {
     alert("Ingrese un valor válido y no negativo para la base superior");
     document.getElementById("n1").value = "";
     f = false;
   }
   const p = parseInt(document.getElementById("n2").value);
-  if (isNaN(p) || p < 0) {
+  if (isNaN(p) || p < 0|| p == "-0") {
     alert("Ingrese un valor válido y no negativo para la base inferior");
     document.getElementById("n2").value = "";
     f = false;
   }
   const q = parseInt(document.getElementById("n3").value);
-  if (isNaN(q) || q < 0) {
+  if (isNaN(q) || q < 0 || q == "-0") {
     alert("Ingrese un valor válido y no negativo para la altura");
     document.getElementById("n3").value = "";
     f = false;
@@ -178,36 +181,36 @@ let CapitalInicial, TasaInteres, Tiempo;
 function readNums5() {
   let f = true;
   CapitalInicial = document.getElementById("n1").value;
-  if (isNaN(CapitalInicial)) {
+  if (isNaN(CapitalInicial) || CapitalInicial == "") {
     alert("Ingrese el capital inicial");
     document.getElementById("n1").value = "";
     f = false;
   } else {
-    if (CapitalInicial < 0) {
+    if (CapitalInicial < 0 || CapitalInicial == "-0") {
       alert("El capital inicial debe ser positivo");
       document.getElementById("n1").value = "";
       f = false;
     }
   }
   TasaInteres = document.getElementById("n2").value;
-  if (isNaN(TasaInteres)) {
+  if (isNaN(TasaInteres) || TasaInteres == "") {
     alert("Ingrese la tasa de interés");
     document.getElementById("n2").value = "";
     f = false;
   } else {
-    if (TasaInteres < 0) {
+    if (TasaInteres < 0 || TasaInteres == "-0") {
       alert("La tasa de interés debe ser positiva");
       document.getElementById("n2").value = "";
       f = false;
     }
   }
   Tiempo = document.getElementById("n3").value;
-  if (isNaN(Tiempo)) {
+  if (isNaN(Tiempo) || Tiempo == "") {
     alert("Ingrese el tiempo en años");
     document.getElementById("n3").value = "";
     f = false;
   } else {
-    if (Tiempo < 0) {
+    if (Tiempo < 0 || Tiempo == "-0") {
       alert("El tiempo debe ser positivo");
       document.getElementById("n3").value = "";
       f = false;

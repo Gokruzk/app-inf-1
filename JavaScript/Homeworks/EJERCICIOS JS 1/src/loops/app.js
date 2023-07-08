@@ -182,11 +182,71 @@ function exe1() {
   counterElement.innerHTML = `Cantidad de vehículos atendidos: ${cars} <br> Cantidad de dinero recaudado: $${recaudado}`;
 }
 
+//9. De dos matrices, encontrar el mensaje oculto
+
+function printM(matriz, id) {
+  const tabla = document.getElementById(id);
+  tabla.classList.add("tabla-estilos");
+  // Generar el contenido HTML de la tabla
+  let contenidoTabla = "";
+  for (let i = 0; i < matriz.length; i++) {
+    contenidoTabla += "<tr>";
+    for (let j = 0; j < matriz[i].length; j++) {
+      contenidoTabla += "<td>" + matriz[i][j] + "</td>";
+    }
+    contenidoTabla += "</tr>";
+  }
+
+  // Asignar el contenido a la tabla
+  tabla.innerHTML = contenidoTabla;
+}
+
+function printMensaje(matriz1, matriz2) {
+  const ans = document.getElementById("ans");
+  let msj = "";
+  for (let i = 0; i < 8; i++) {
+    for (let j = 0; j < 8; j++) {
+      if (matriz2[i][j] == 1) {
+        msj += matriz1[i][j];
+      }
+    }
+  }
+  ans.innerHTML = `Mensaje encontrado: ${msj}`;
+}
+
+function ej9() {
+  const letras = [
+    ["e", "s", "n", "u", "l", "d", "s", "h"],
+    ["a", "s", "a", "e", "p", "r", "v", "l"],
+    ["e", "o", "n", "e", "i", "s", "d", "g"],
+    ["d", "s", "i", "a", "e", "a", "o", "i"],
+    ["d", "i", "e", "o", "n", "a", "g", "a"],
+    ["r", "a", "l", "a", "e", "l", "a", "g"],
+    ["p", "d", "u", "u", "o", "o", "n", "s"],
+    ["d", "i", "l", "i", "e", "i", "n", "o"],
+  ];
+
+  const nums = [
+    [0, 1, 0, 1, 0, 0, 1, 0],
+    [0, 0, 0, 0, 1, 0, 0, 0],
+    [1, 0, 1, 0, 0, 0, 1, 0],
+    [0, 0, 0, 1, 0, 0, 0, 0],
+    [0, 1, 0, 0, 0, 1, 0, 0],
+    [1, 0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0, 1, 0],
+    [0, 0, 0, 1, 0, 0, 0, 1],
+  ];
+
+  printM(letras, "table");
+  printM(nums, "table2");
+  printMensaje(letras, nums);
+}
+
 // 10. Confeccione un programa para hallar e imprimir los números naturales que cumplan simultáneamente las condiciones siguientes:
 // Se encuentren entre 1200 y 2000.
 // Tengan exactamente 4 divisores enteros positivos que son 1,5, otro número primo y el propio número.
 
-function calcular_naturales() {
+function naturales() {
   let nums = [];
 
   for (let num = 1200; num <= 2000; num++) {
@@ -204,28 +264,28 @@ function calcular_naturales() {
   showResult(nums);
 }
 
-function getDiv(numero) {
+function getDiv(n) {
   let div = [];
 
-  for (let i = 1; i <= Math.sqrt(numero); i++) {
-    if (numero % i === 0) {
+  for (let i = 1; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) {
       div.push(i);
 
-      if (numero / i !== i) {
-        div.push(numero / i);
+      if (n / i !== i) {
+        div.push(n / i);
       }
     }
   }
   return div;
 }
 
-function esPrimo(numero) {
-  if (numero < 2) {
+function esPrimo(n) {
+  if (n < 2) {
     return false;
   }
 
-  for (let i = 2; i <= Math.sqrt(numero); i++) {
-    if (numero % i === 0) {
+  for (let i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) {
       return false;
     }
   }
@@ -245,7 +305,6 @@ function showResult(numeros) {
       msj += "" + numero + ": {" + divisores.join(", ") + "}";
     });
     result.innerHTML = msj;
-    // result.innerHTML = numerosHTML.slice(0, -2); // Eliminar la última coma y espacio
   } else {
     result.innerHTML = "No se encontraron números que cumplan las condiciones";
   }
@@ -307,6 +366,6 @@ function pascalTriangle() {
       let fila = triangle[i].join(" ");
       result.innerHTML += `${fila} <br>`;
     }
-    setHeightCard(rows)
+    setHeightCard(rows);
   }
 }

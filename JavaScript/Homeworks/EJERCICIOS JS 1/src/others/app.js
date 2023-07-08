@@ -23,6 +23,193 @@ document.addEventListener("DOMContentLoaded", () => {
   adaptarAnchoInput();
 });
 
+//Implementar reconocimiento de voz
+
+let isRecording = false;
+
+function record() {
+  const recognition = new webkitSpeechRecognition();
+  recognition.lang = "es-ES";
+  recognition.continuous = true;
+  recognition.onresult = (event) => {
+    let texto = "";
+
+    for (const result of event.results) {
+      texto = result[0].transcript;
+    }
+
+    let textoAux = "";
+
+    for (let i = 0; i < texto.length; i++) {
+      textoAux += texto[i];
+      if (i % 20 === 0 && i > 0) {
+        if (texto !== " ") {
+          textoAux += "_<br>";
+        } else {
+          textoAux += "<br>";
+        }
+      }
+    }
+    let resultado = document.getElementById("texto-dictado");
+    if (resultado != "") {
+      const ans = document.getElementById("card");
+      ans.style.display = "flex";
+      resultado.innerHTML = textoAux;
+    }
+  };
+
+  toggleRecording(recognition);
+}
+
+function toggleRecording(recognition) {
+  let spanBoton = document.getElementById("btn-voz");
+
+  if (isRecording) {
+    // Detener la grabación
+    recognition.stop();
+    spanBoton.innerHTML = "Iniciar";
+    isRecording = false;
+  } else {
+    // Iniciar la grabación
+    recognition.start();
+    spanBoton.innerHTML = "Detener";
+    isRecording = true;
+  }
+}
+
+// Crear una ruleta rusa de colores con random
+
+function cleanInput() {
+  const input = document.getElementById("n0");
+  const val = input.shadowRoot.querySelector("input");
+  val.value = "";
+}
+
+function readNums() {
+  let f = true;
+  const input = document.getElementById("n0");
+  let val = input.shadowRoot.querySelector("input").value;
+  const c = [
+    "Celeste",
+    "Azul",
+    "Morado",
+    "Rosa",
+    "Amarillo",
+    "Negro",
+    "Verde claro",
+    "Verde",
+    "Naranja",
+    "Rojo",
+    "Café",
+    "Gris",
+  ];
+  if (!patt(val)) {
+    alert("Ingrese un color");
+    f = false;
+  } else {
+    let color = "";
+    color = val[0].toUpperCase();
+    for (let i = 1; i < val.length; i++) {
+      color += val[i].toLowerCase();
+    }
+    val = color;
+    const index = c.indexOf(val);
+    if (index !== -1) {
+    } else {
+      alert("Ingrese un color de la ruleta");
+      f = false;
+    }
+  }
+  return { f, val };
+}
+
+const roulette = document.querySelector("#roulette");
+const spinButton = document.querySelector(".spin");
+const resetButton = document.querySelector(".reset");
+
+const maxSpins = 10;
+const minSpins = 1;
+
+const maxDegrees = 360;
+const minDegrees = 1;
+
+const randomColor = (min, max) => {
+  return Math.round(Math.random() * (max - min) + min);
+};
+
+let deg = 0;
+let timeoutId = 0;
+
+spinButton.addEventListener("click", () => {
+  if (readNums().f) {
+    const res = document.getElementById("ans");
+    const spins = randomColor(minSpins, maxSpins);
+    const degrees = randomColor(minDegrees, maxDegrees);
+
+    const fullSpins = (spins - 1) * 360;
+    const spin = fullSpins + degrees;
+
+    const animationTime = spins;
+
+    roulette.style.transform = `rotate(${spin}deg)`;
+    roulette.style.transitionDuration = `${animationTime}s`;
+
+    spinButton.style.display = "none";
+    resetButton.style.display = "inline-block";
+    deg = spin;
+    while (deg > 360) {
+      deg -= 360;
+    }
+    console.log(`Grados: ${deg}`);
+    console.log(`Animación: ${animationTime}`);
+    let time = animationTime * 1000;
+
+    setTimeout(() => {
+      if (colors(deg) == readNums().val) {
+        res.innerHTML = "FELICIDADES!";
+      } else {
+        res.innerHTML = "PERDISTE!";
+      }
+    }, time);
+  }
+});
+
+function colors(deg) {
+  if (deg >= 0 && deg <= 30) {
+    return "Celeste";
+  } else if (deg >= 31 && deg <= 60) {
+    return "Azul";
+  } else if (deg >= 61 && deg <= 90) {
+    return "Morado";
+  } else if (deg >= 91 && deg <= 120) {
+    return "Rosa";
+  } else if (deg >= 121 && deg <= 150) {
+    return "Amarillo";
+  } else if (deg >= 151 && deg <= 180) {
+    return "Negro";
+  } else if (deg >= 181 && deg <= 210) {
+    return "Verde claro";
+  } else if (deg >= 211 && deg <= 240) {
+    return "Verde";
+  } else if (deg >= 241 && deg <= 270) {
+    return "Naranja";
+  } else if (deg >= 271 && deg <= 300) {
+    return "Rojo";
+  } else if (deg >= 301 && deg <= 330) {
+    return "Café";
+  } else if (deg >= 331 && deg <= 360) {
+    return "Gris";
+  }
+}
+
+resetButton.addEventListener("click", () => {
+  roulette.style.transform = "rotate(0deg)";
+  roulette.style.transitionDuration = "2s";
+  spinButton.style.display = "inline-block";
+  resetButton.style.display = "none";
+  clearTimeout(timeoutId);
+});
+
 // 14. Un laboratorio de Física de la atmósfera trabajan N investigadores.
 // Cada uno de ellos realiza mediciones de temperatura los días lunes, martes, miércoles, jueves y viernes, dichos valores varían entre 0 y 10.
 // Confeccione un programa para:
@@ -36,7 +223,7 @@ function patt(text) {
   return patron.test(text);
 }
 
-function readNums3() {
+function readNums2() {
   let f = true;
   let styleF = `transform: translateY(-85%) scale(0.8);
   background-color: transparent;
@@ -174,8 +361,8 @@ let rss = [];
 // let lab = [];
 
 function exe1() {
-  if (readNums3().f) {
-    let rs = readNums3().obj;
+  if (readNums2().f) {
+    let rs = readNums2().obj;
 
     const existe = rss.find((element) => element.name === rs.name);
     if (existe) alert("El investigador ya existe");
@@ -285,6 +472,7 @@ function generarTabla2(datos) {
   contenedorTabla.appendChild(tabla);
 }
 
+// gráfico de barras
 let newChart = null;
 function graph() {
   const div = document.getElementById("cnv");

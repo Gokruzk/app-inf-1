@@ -11,7 +11,7 @@ function readNums6() {
     document.getElementById("n1").value = "";
     f = false;
   } else {
-    if (TiempoVuelo < 0) {
+    if (TiempoVuelo < 0 || TiempoVuelo == "-0") {
       alert("El Tiempo de Vuelo debe ser positivo");
       document.getElementById("n1").value = "";
       f = false;
@@ -23,7 +23,7 @@ function readNums6() {
     document.getElementById("n2").value = "";
     f = false;
   } else {
-    if (TiempoTranscurrido < 0) {
+    if (TiempoTranscurrido < 0 || TiempoTranscurrido == "-0") {
       alert("El Tiempo Transcurrido debe ser positivo");
       document.getElementById("n1").value = "";
       f = false;
@@ -215,16 +215,23 @@ function readNums7() {
 
 function calcularRaices(a, b, c) {
   const discriminante = b ** 2 - 4 * a * c;
-
-  if (discriminante > 0) {
-    const raiz1 = (-b + Math.sqrt(discriminante)) / (2 * a);
-    const raiz2 = (-b - Math.sqrt(discriminante)) / (2 * a);
-    return [raiz1, raiz2];
-  } else if (discriminante === 0) {
-    const raiz = -b / (2 * a);
-    return raiz;
+  if (a == 0) {
+    return -1 * (c / b);
   } else {
-    return "No existen raíces reales";
+    if (discriminante < 0) {
+      return "Raíces imaginarias";
+    } else {
+      if (discriminante > 0) {
+        const raiz1 = (-b + Math.sqrt(discriminante)) / (2 * a);
+        const raiz2 = (-b - Math.sqrt(discriminante)) / (2 * a);
+        return [raiz1, raiz2];
+      } else if (discriminante === 0) {
+        const raiz = -b / (2 * a);
+        return raiz;
+      } else {
+        return "No existen raíces reales";
+      }
+    }
   }
 }
 
@@ -298,86 +305,59 @@ let day, month, year;
 
 function readNums9() {
   let f = true;
-  day = parseInt(document.getElementById("day").value);
-  if (isNaN(day)) {
-    alert("Ingrese el día de nacimiento");
-    document.getElementById("day").value = "";
-    f = false;
-  } else if (day < 0 || day > 30) {
-    alert("Ingrese el día correctamente");
-    document.getElementById("day").value = "";
-    f = false;
-  } else if (day < 0) {
-    alert("Ingrese datos positivos");
-    document.getElementById("day").value = "";
-    f = false;
+  const fechaInput = document.getElementById("date").value;
+  // Obtener la fecha actual
+  const fechaActual = new Date();
+
+  // Obtener la fecha de nacimiento a partir del campo de entrada
+  let fechaNacimiento = new Date(fechaInput);
+  fechaNacimiento = new Date(
+    fechaNacimiento.getFullYear(),
+    fechaNacimiento.getMonth(),
+    fechaNacimiento.getDate() + 1
+  );
+
+  let msj = "";
+
+  fechaNacimiento.setHours(0, 0, 0, 0);
+  fechaActual.setHours(0, 0, 0, 0);
+
+  if (isNaN(fechaNacimiento)) {
+    msj = "Ingrese una edad";
+  } else if (fechaNacimiento.getTime() == fechaActual.getTime()) {
+    msj = "Fechas iguales";
+  } else if (fechaNacimiento.getTime() > fechaActual.getTime()) {
+    msj = "Fechas de nacimiento mayor a la actual";
+  } else {
+    msj = calcularEdad(
+      fechaNacimiento.getDate(),
+      fechaNacimiento.getMonth(),
+      fechaNacimiento.getFullYear()
+    );
   }
-  month = parseInt(document.getElementById("month").value);
-  if (isNaN(month)) {
-    alert("Ingrese el mes de nacimiento");
-    document.getElementById("month").value = "";
-    f = false;
-  } else if (month > 12) {
-    alert("Ingrese un mes válido");
-    document.getElementById("month").value = "";
-    f = false;
-  } else if (month < 0) {
-    alert("Ingrese datos positivos");
-    document.getElementById("month").value = "";
-    f = false;
-  }
-  year = parseInt(document.getElementById("year").value);
-  if (isNaN(year)) {
-    alert("Ingrese el año de nacimiento");
-    document.getElementById("year").value = "";
-    f = false;
-  } else if (year < 0) {
-    alert("Ingrese datos positivos");
-    document.getElementById("year").value = "";
-    f = false;
-  }
-  return f;
+  return { f, msj };
 }
 
 function calcularEdad(day, month, year) {
   const fechaActual = new Date();
-  let input = document.getElementById("year");
   let msj = "";
   if (year > fechaActual.getFullYear()) {
     alert("Ingrese un año correcto");
     input.value = "";
   } else {
-    const fechaNacimiento = new Date(year, month - 1, day);
-    console.log(fechaNacimiento);
+    const fechaNacimiento = new Date(year, month, day);
     let edadAnos = fechaActual.getFullYear() - fechaNacimiento.getFullYear();
     let edadMeses = fechaActual.getMonth() - fechaNacimiento.getMonth();
     let edadDias = fechaActual.getDate() - fechaNacimiento.getDate();
 
-    fechaNacimiento.setHours(0, 0, 0, 0);
-    fechaActual.setHours(0, 0, 0, 0);
-
-    if (fechaNacimiento.getTime() == fechaActual.getTime()) {
-      alert("La fecha ingresada es la actual");
-      input = document.getElementById("year");
-      input.value = "";
-      input = document.getElementById("month");
-      input.value = "";
-      input = document.getElementById("day");
-      input.value = "";
-    } else {
-      msj = `La edad es: ${edadAnos} años, ${edadMeses} meses y ${edadDias} días`;
-    }
+    msj = `La edad es: ${edadAnos} años, ${edadMeses} meses y ${edadDias} días`;
   }
   return msj;
 }
 
 function ej9() {
-  if (readNums9()) {
-    document.getElementById("ans").innerHTML = `${calcularEdad(
-      day,
-      month,
-      year
-    )}`;
+  if (readNums9().f) {
+    document.getElementById("ans").innerHTML = `${readNums9().msj}`;
   }
 }
 
@@ -398,7 +378,7 @@ function readNums10() {
     alert("Ingrese la calificación");
     input.value = "";
     f = false;
-  } else if (nota > 100 || nota < 0) {
+  } else if (nota > 100 || nota < 0 || nota == "-0") {
     alert("La calificación debe estar entre 0 y 100");
     input.value = "";
     f = false;
