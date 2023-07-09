@@ -166,9 +166,9 @@ spinButton.addEventListener("click", () => {
 
     setTimeout(() => {
       if (colors(deg) == readNums().val) {
-        res.innerHTML = "FELICIDADES!";
+        res.innerHTML = "FELICIDADES, HAS GANADO";
       } else {
-        res.innerHTML = "PERDISTE!";
+        res.innerHTML = "PERDISTE";
       }
     }, time);
   }
@@ -203,11 +203,13 @@ function colors(deg) {
 }
 
 resetButton.addEventListener("click", () => {
+  const ans = document.getElementById("ans")
+  ans.innerHTML = ""
   roulette.style.transform = "rotate(0deg)";
   roulette.style.transitionDuration = "2s";
   spinButton.style.display = "inline-block";
   resetButton.style.display = "none";
-  clearTimeout(timeoutId);
+  cleanInput()
 });
 
 // 14. Un laboratorio de Física de la atmósfera trabajan N investigadores.

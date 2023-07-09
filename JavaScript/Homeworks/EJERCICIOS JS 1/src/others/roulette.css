@@ -50,6 +50,7 @@
 }
 
 #roulette .roulette-section .roulette-section-container p {
+  padding: 0;
   text-align: center;
   margin-top: 10px;
   transform: rotate(-90deg);
