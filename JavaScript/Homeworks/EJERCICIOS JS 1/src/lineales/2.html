@@ -24,18 +24,27 @@
       2. Confeccione un programa para imprimir la parte fraccionaria de un
       número.
     </p>
-    <form>
-      <div class="input-group">
-        <input type="text" required="" id="n1" class="input">
-        <label class="user-label">Número</label>
-      </div>
+    <center>
+      <img src="../../assets/e1.jpg" alt="" />
+      <fieldset style="width: 50%">
+        <div style="padding-top: 10px">
+          <my-input
+            id="n1"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            >Número</my-input
+          >
+        </div>
+        <div class="form-group" style="width: 100%">
+          <label for="" id="ans"></label>
+        </div>
+      </fieldset>
       <button id="btn" type="submit" onclick="ej2()">Calcular</button>
-      <button type="submit" onclick="">Limpiar</button>
-      <div class="form-group" style="padding-top: 10px">
-        <label for="" id="ans"></label>
-      </div>
-    </form>
+      <button type="submit" onclick="location.reload()">Limpiar</button>
+    </center>
     <script src="app.js"></script>
     <script src="../../app.js"></script>
+    <script src="../../components/MyInput.js"></script>
   </body>
 </html>

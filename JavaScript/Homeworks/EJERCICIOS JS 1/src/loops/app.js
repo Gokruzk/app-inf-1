@@ -124,10 +124,10 @@ function increment() {
   const input = document.getElementById("n0");
   const gas = input.shadowRoot.querySelector("input");
   if (gas.value == 0) {
-    alert("se acabó la gasolina");
+    alert("Se acabó la gasolina");
     stop();
   } else {
-    counterElement.innerHTML = `Litros: ${counter}`;
+    counterElement.innerHTML = `Litros: ${counter+1}`;
     gas.value -= 1;
     counter++;
   }

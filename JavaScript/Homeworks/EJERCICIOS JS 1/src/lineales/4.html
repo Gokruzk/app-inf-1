@@ -21,26 +21,44 @@
       </nav>
     </header>
     <p>4. Programa que calcula áreas de trapecios.</p>
-    <form>
-      <div class="input-group">
-        <input type="text" required="" id="n1" class="input" />
-        <label class="user-label">Base superior</label>
-      </div>
-      <div class="input-group">
-        <input type="text" required="" id="n2" class="input" />
-        <label class="user-label">Base inferior</label>
-      </div>
-      <div class="input-group">
-        <input type="text" required="" id="n3" class="input" />
-        <label class="user-label">Altura</label>
-      </div>
-      <div class="form-group" style="padding-top: 10px">
-        <label for="" id="ans"></label>
-      </div>
-      <button id="btn" type="submit" onclick="ej4()">Calcular</button>
-      <button type="submit" onclick="">Limpiar</button>
-    </form>
+    <div class="img-container">
+      <img src="../../assets/e2.png" alt="" />
+    </div>
+    <center>
+      <fieldset style="width: 50%;">
+        <div style="padding-top: 5px;">
+
+          <my-input
+            id="n1"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            >Base superior</my-input
+          >
+          <my-input
+            id="n2"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            >Base inferior</my-input
+          >
+          <my-input
+            id="n3"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            >Altura</my-input
+          >
+        </div>
+        <div class="form-group" style="width: 100%;">
+          <label for="" id="ans"></label>
+        </div>
+      </fieldset>
+      <button id="btn" type="submit" style="margin: 10px 0px 30px 0" onclick="ej4()">Calcular</button>
+      <button type="submit" onclick="location.reload()">Limpiar</button>
+    </center>
     <script src="app.js"></script>
     <script src="../../app.js"></script>
+    <script src="../../components/MyInput.js"></script>
   </body>
 </html>

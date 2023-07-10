@@ -71,17 +71,22 @@ function esDecimal(numero) {
 let n;
 function readNums2() {
   let f = true;
-  n = document.getElementById("n1").value;
-
-  if (isNaN(n)) {
-    alert("Ingrese un número");
-    document.getElementById("n1").value = "";
-    f = false;
+  n = document.getElementById("n1").shadowRoot.querySelector("input").value;
+  if (n.split(",").length > 1) {
+    f = true;
   } else {
-    if (!esDecimal(n)) {
-      alert("Ingrese un número con parte fraccionaria");
-      document.getElementById("n1").value = "";
+    if (isNaN(n)) {
+      alert("Ingrese un número");
+      document.getElementById("n1").shadowRoot.querySelector("input").value =
+        "";
       f = false;
+    } else {
+      if (!esDecimal(n)) {
+        alert("Ingrese un número con parte fraccionaria");
+        document.getElementById("n1").shadowRoot.querySelector("input").value =
+          "";
+        f = false;
+      }
     }
   }
   return f;
@@ -90,11 +95,20 @@ function readNums2() {
 function ej2() {
   if (readNums2()) {
     let parteFraccionaria = n.split(".");
-    document.getElementById(
-      "ans"
-    ).innerHTML = `La parte fraccionaria del número ingresado es ${parseInt(
-      parteFraccionaria[1]
-    )}`;
+    if (parteFraccionaria.length > 1) {
+      document.getElementById(
+        "ans"
+      ).innerHTML = `La parte fraccionaria del número ingresado es ${parseInt(
+        parteFraccionaria[1]
+      )}`;
+    } else {
+      parteFraccionaria = n.split(",");
+      document.getElementById(
+        "ans"
+      ).innerHTML = `La parte fraccionaria del número ingresado es ${parseInt(
+        parteFraccionaria[1]
+      )}`;
+    }
   }
 }
 
@@ -102,14 +116,14 @@ function ej2() {
 let x1;
 function readNums3() {
   let f = true;
-  x1 = document.getElementById("n1").value;
+  x1 = document.getElementById("n1").shadowRoot.querySelector("input").value;
   if (isNaN(x1) || x1 == "") {
     alert("Ingrese un número");
-    document.getElementById("n1").value = "";
+    document.getElementById("n1").shadowRoot.querySelector("input").value = "";
     f = false;
-  } else if (x1 <= 0) {
+  } else if (x1 <= 0 || x1 == "-0") {
     alert("Ingrese un número mayor a 0");
-    document.getElementById("n1").value = "";
+    document.getElementById("n1").shadowRoot.querySelector("input").value = "";
     f = false;
   }
   return f;
@@ -139,22 +153,26 @@ function ej3() {
 let o, p, q;
 function readNums4() {
   let f = true;
-  const o = parseInt(document.getElementById("n1").value);
+  o = parseFloat(document.getElementById("n1").value);
   if (isNaN(o) || o < 0 || o == "-0") {
     alert("Ingrese un valor válido y no negativo para la base superior");
     document.getElementById("n1").value = "";
     f = false;
   }
-  const p = parseInt(document.getElementById("n2").value);
-  if (isNaN(p) || p < 0|| p == "-0") {
+  p = parseFloat(document.getElementById("n2").value);
+  if (isNaN(p) || p < 0 || p == "-0") {
     alert("Ingrese un valor válido y no negativo para la base inferior");
     document.getElementById("n2").value = "";
     f = false;
   }
-  const q = parseInt(document.getElementById("n3").value);
+  q = parseFloat(document.getElementById("n3").value);
   if (isNaN(q) || q < 0 || q == "-0") {
     alert("Ingrese un valor válido y no negativo para la altura");
     document.getElementById("n3").value = "";
+    f = false;
+  }
+  if (o > q) {
+    alert("La base superior no puede ser mayor que la base inferior");
     f = false;
   }
   return f;

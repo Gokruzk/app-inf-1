@@ -28,19 +28,26 @@
     </p>
     <form>
       <div class="input-group">
-        <input type="text" required="" id="n1" class="input">
+        <input type="text" required="" id="n1" class="input" />
         <label class="user-label">Altura del poste (m)</label>
       </div>
       <div class="input-group">
-        <input type="text" required="" id="n2" class="input">
+        <input type="text" required="" id="n2" class="input" />
         <label class="user-label">Largo de la sombra (m)</label>
       </div>
       <div class="input-group">
-        <input type="time" required="" id="n3" class="input" min="06:00" max="18:30">
+        <input
+          type="time"
+          required=""
+          id="n3"
+          class="input"
+          min="06:00"
+          max="18:30"
+        />
         <label class="user-label"></label>
       </div>
       <button id="btn" type="submit" onclick="ej1()">Calcular</button>
-      <button type="submit" onclick="document.getElementById('n1').value = ' ';document.getElementById('n2').value = ' '; document.getElementById('n3').value = ' '">Limpiar</button>
+      <button type="submit" onclick="location.reload()">Limpiar</button>
       <div class="form-group" style="padding-top: 10px">
         <label for="" id="ans"></label>
       </div>

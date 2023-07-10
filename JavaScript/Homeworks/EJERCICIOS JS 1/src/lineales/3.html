@@ -25,18 +25,35 @@
       valor como el número de segundos que dura un evento, calcule y muestre por
       pantalla, cuántos días, horas, minutos y segundos representa x.
     </p>
-    <form>
-      <div class="input-group">
-        <input type="text" required="" id="n1" class="input" />
-        <label class="user-label">Segundos</label>
-      </div>
-      <div class="form-group" style="padding-top: 10px">
-        <label for="" id="ans"></label>
-      </div>
-      <button id="btn" type="submit" onclick="ej3()">Calcular</button>
-      <button type="submit" onclick="">Limpiar</button>
-    </form>
+    <center>
+      <fieldset style="width: 50%">
+        <div style="padding-top: 10px">
+          <my-input
+            id="n1"
+            class-i="input"
+            class-l="user-label"
+            class-d="input-group"
+            >Segundos</my-input
+          >
+        </div>
+        <div class="form-group" style="width: 100%;">
+          <label for="" id="ans"></label>
+        </div>
+      </fieldset>
+      <button
+        id="btn"
+        type="submit"
+        style="margin: 10px 0px 30px 0"
+        onclick="ej3()"
+      >
+        Calcular
+      </button>
+      <button type="submit" style="margin: 10px 0px 30px 0" onclick="location.reload()">
+        Limpiar
+      </button>
+    </center>
     <script src="app.js"></script>
     <script src="../../app.js"></script>
+    <script src="../../components/MyInput.js"></script>
   </body>
 </html>
