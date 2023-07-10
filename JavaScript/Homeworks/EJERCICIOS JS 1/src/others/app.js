@@ -144,7 +144,8 @@ let deg = 0;
 let timeoutId = 0;
 
 spinButton.addEventListener("click", () => {
-  if (readNums().f) {
+  const { f, val } = readNums();
+  if (f) {
     const res = document.getElementById("ans");
     const spins = randomColor(minSpins, maxSpins);
     const degrees = randomColor(minDegrees, maxDegrees);
@@ -168,7 +169,7 @@ spinButton.addEventListener("click", () => {
     let time = animationTime * 1000;
 
     setTimeout(() => {
-      if (colors(deg) == readNums().val) {
+      if (colors(deg) == val) {
         res.innerHTML = "FELICIDADES, HAS GANADO";
       } else {
         res.innerHTML = "PERDISTE";
@@ -358,19 +359,16 @@ function readNums2() {
     mediaMediciones: m,
     cantMediciones: cont,
   };
-  if (f) {
-  }
   return { f, obj };
 }
 
 function exe1() {
   const { f, obj } = readNums2();
   if (f) {
-    let rs = obj;
-    let existe = rss.find((element) => element.name === rs.name);
+    let existe = rss.find((element) => element.name === obj.name);
     if (existe) alert("El investigador ya existe");
     else {
-      rss.push(rs);
+      rss.push(obj);
       generarTabla(rss);
       showField("field");
       showBtn("temp");

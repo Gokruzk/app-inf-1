@@ -1,3 +1,8 @@
+let counter = 0;
+let intervalId;
+let lit = [];
+let running = false;
+
 // 7. Escriba un programa que despliegue todos los subconjuntos no vacíos del
 //       conjunto de los números del 1 a n. Por ejemplo, si n = 3, debe obtenerse:
 //       [ [1] [2] [3] [1 2] [1 3] [2 3] [1 2 3] ]
@@ -28,10 +33,11 @@ const readNums1 = () => {
 
 const exe = () => {
   const result = document.getElementById("sets");
-  if (readNums1().f) {
+  const { f, n } = readNums1();
+  if (f) {
     showCard();
     let numbers = [];
-    for (let i = 1; i <= readNums1().n; i++) {
+    for (let i = 1; i <= n; i++) {
       numbers.push(i);
     }
     subSets(numbers, [], result);
@@ -79,11 +85,6 @@ const loop = (i, n, subset, result) => {
 //     La cantidad de dinero recaudado si cada litro de gasolina especial cuesta $1,25 ctvos. de dólar.
 //     Cuál es la mayor cantidad de gasolina despachada a un vehículo
 
-let counter = 0;
-let intervalId;
-let lit = [];
-let running = false;
-
 function readNums2() {
   let f = true;
   const myInput = document.getElementById("n0");
@@ -127,7 +128,7 @@ function increment() {
     alert("Se acabó la gasolina");
     stop();
   } else {
-    counterElement.innerHTML = `Litros: ${counter+1}`;
+    counterElement.innerHTML = `Litros: ${counter + 1}`;
     gas.value -= 1;
     counter++;
   }
@@ -143,8 +144,9 @@ function stopCounter() {
 }
 
 function start() {
-  if (readNums2().f) {
-    console.log(readNums2().gas);
+  const { f, gas } = readNums2();
+  if (f) {
+    console.log(gas);
     if (running) {
       alert("Antes de empezar a llenar de nuevo, detenga el llenado");
     } else {
@@ -344,10 +346,10 @@ function setHeightCard(rows) {
 }
 
 function pascalTriangle() {
-  if (readNums3().f) {
+  const { f, rows } = readNums3();
+  if (f) {
     showCard();
     const result = document.getElementById("sets");
-    let rows = readNums3().rows;
     let triangle = [];
 
     for (let i = 0; i < rows; i++) {

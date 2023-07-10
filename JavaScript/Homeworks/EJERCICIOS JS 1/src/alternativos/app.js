@@ -1,9 +1,8 @@
 //Alternativos
 //1.	Un avión emplea 10 minutos para despegar del aeropuerto internacional “Mariscal Sucre”, vuela de forma estable  durante n minutos y emplea 15 segundos en aterrizar. Confecciona un programa para imprimir en qué fase del vuelo se encuentra el avión a los t minutos del despegue. Imprima , además, la duración del vuelo en horas, minutos y segundos.
 
-let TiempoVuelo, TiempoTranscurrido;
-
 function readNums6() {
+  let TiempoVuelo, TiempoTranscurrido;
   let f = true;
   TiempoVuelo = document.getElementById("n1").value;
   if (isNaN(TiempoVuelo)) {
@@ -29,7 +28,7 @@ function readNums6() {
       f = false;
     }
   }
-  return f;
+  return { f, TiempoVuelo, TiempoTranscurrido };
 }
 
 function faseVuelo(t) {
@@ -43,23 +42,26 @@ function faseVuelo(t) {
   }
 }
 
-function calcularDuracionVuelo() {
+function calcularDuracionVuelo(n) {
   const despegue = 10;
   const aterrizaje = 15;
-  const duracionTotal = despegue + TiempoVuelo + aterrizaje;
+  const duracionTotal = despegue + n + aterrizaje;
 
   const horas = Math.floor(duracionTotal / 60);
   const minutos = duracionTotal % 60;
   const segundos = minutos * 60;
 
-  return `Horas: ${horas}, Minutos: ${minutos}, Segundos: ${segundos.toFixed(2)}`;
+  return `Horas: ${horas}, Minutos: ${minutos}, Segundos: ${segundos.toFixed(
+    2
+  )}`;
 }
 
 function ej6() {
-  if (readNums6()) {
+  const { f, TiempoVuelo, TiempoTranscurrido } = readNums6();
+  if (f) {
     document.getElementById("ans").innerHTML = `${faseVuelo(
       TiempoTranscurrido
-    )} \n La duración del vuelo es: ${calcularDuracionVuelo()}`;
+    )} \n La duración del vuelo es: ${calcularDuracionVuelo(TiempoVuelo)}`;
   }
 }
 
@@ -189,8 +191,8 @@ function eja() {
 
 //3.	Confeccione un programa para calcular las raíces reales de una ecuación de la forma ax2 + bx +c
 
-let a, b, c;
 function readNums7() {
+  let a, b, c;
   let f = true;
   a = parseInt(document.getElementById("a").value);
   if (isNaN(a)) {
@@ -210,7 +212,7 @@ function readNums7() {
     document.getElementById("c").value = "";
     f = false;
   }
-  return f;
+  return { f, a, b, c };
 }
 
 function calcularRaices(a, b, c) {
@@ -236,24 +238,27 @@ function calcularRaices(a, b, c) {
 }
 
 function ej7() {
-  if (readNums7()) {
+  const { f, a, b, c } = readNums7();
+  if (f) {
     const raices = calcularRaices(a, b, c);
     if (raices.length == 2) {
       const r1 = raices[0];
       const r2 = raices[1];
-      document.getElementById(
-        "ans"
-      ).innerHTML = `Las raíces son: ${r1.toFixed(2)} y ${r2.toFixed(2)}`;
+      document.getElementById("ans").innerHTML = `Las raíces son: ${r1.toFixed(
+        2
+      )} y ${r2.toFixed(2)}`;
     } else {
-      document.getElementById("ans").innerHTML = `La raíz es: ${raices.toFixed(2)}`;
+      document.getElementById("ans").innerHTML = `La raíz es: ${raices.toFixed(
+        2
+      )}`;
     }
   }
 }
 
 // 4.	Una compañía dedicada al alquiler de automóviles cobra un monto fijo de $300000 para los primeros 300 km de recorrido. Para más de 300 km y hasta 1000 km, cobra un monto adicional de $ 15.000 por cada kilómetro en exceso sobre 300. Para más de 1000 km cobra un monto adicional de $ 10.000 por cada kilómetro en exceso sobre 1000. Los precios ya incluyen el 20% del impuesto general a las ventas, IVA. Diseñe un programa que determine el monto a pagar por el alquiler de un vehículo y el monto incluido del impuesto.
 
-let km = 0;
 function readNums8() {
+  let km = 0;
   let f = true;
   const myInput = document.getElementById("km");
   const input = myInput.shadowRoot.querySelector("input");
@@ -272,7 +277,7 @@ function readNums8() {
     input.value = "";
     f = false;
   }
-  return f;
+  return { f, km };
 }
 
 function calcMonto(kms) {
@@ -284,7 +289,7 @@ function calcMonto(kms) {
     if (kms <= 1000) {
       monto = TARIFA + EXCESO_300 * (kms - 300);
     } else {
-      monto = TARIFA + EXCESO_1000 * (kms - 1000) + EXCESO_300 * 700   ;
+      monto = TARIFA + EXCESO_1000 * (kms - 1000) + EXCESO_300 * 700;
     }
   } else {
     monto = TARIFA;
@@ -294,7 +299,8 @@ function calcMonto(kms) {
 }
 
 function ej8() {
-  if (readNums8()) {
+  const { f, km } = readNums8();
+  if (f) {
     document.getElementById("ans").innerHTML = calcMonto(km);
   }
 }
@@ -339,25 +345,40 @@ function readNums9() {
 }
 
 function calcularEdad(day, month, year) {
+  let edad = {};
   const fechaActual = new Date();
   let msj = "";
   if (year > fechaActual.getFullYear()) {
     alert("Ingrese un año correcto");
     input.value = "";
   } else {
-    const fechaNacimiento = new Date(year, month, day);
-    let edadAnos = fechaActual.getFullYear() - fechaNacimiento.getFullYear();
-    let edadMeses = fechaActual.getMonth() - fechaNacimiento.getMonth();
-    let edadDias = fechaActual.getDate() - fechaNacimiento.getDate();
+    edad.anios = fechaActual.getFullYear() - year;
+    edad.meses = fechaActual.getMonth() - month;
+    edad.dias = fechaActual.getDate() - day;
 
-    msj = `La edad es: ${edadAnos} años, ${edadMeses} meses y ${edadDias} días`;
+    if (edad.meses < 0 || (edad.meses === 0 && edad.dias < 0)) {
+      edad.anios--;
+      edad.meses += 12;
+    }
+    if (edad.dias < 0) {
+      const ultimoDiaMesAnterior = new Date(
+        fechaActual.getFullYear(),
+        fechaActual.getMonth(),
+        0
+      ).getDate();
+      edad.meses--;
+      edad.dias += ultimoDiaMesAnterior;
+    }
+
+    msj = `La edad es: ${edad.anios} años, ${edad.meses} meses y ${edad.dias} días`;
   }
   return msj;
 }
 
 function ej9() {
-  if (readNums9().f) {
-    document.getElementById("ans").innerHTML = `${readNums9().msj}`;
+  const { f, msj } = readNums9();
+  if (f) {
+    document.getElementById("ans").innerHTML = `${msj}`;
   }
 }
 
@@ -368,9 +389,8 @@ function ej9() {
 // •	60-69 D
 // •	0-59 F
 
-let nota = 0;
-
 function readNums10() {
+  let nota = 0;
   let f = true;
   const input = document.getElementById("n1");
   nota = input.value;
@@ -383,7 +403,7 @@ function readNums10() {
     input.value = "";
     f = false;
   }
-  return f;
+  return { f, nota };
 }
 
 function calcEscala(calf) {
@@ -403,7 +423,8 @@ function calcEscala(calf) {
 }
 
 function ej10() {
-  if (readNums10()) {
+  const { f, nota } = readNums10();
+  if (f) {
     document.getElementById("ans").innerHTML = calcEscala(nota);
   }
 }
