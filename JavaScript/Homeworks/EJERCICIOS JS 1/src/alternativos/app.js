@@ -5,7 +5,7 @@ let TiempoVuelo, TiempoTranscurrido;
 
 function readNums6() {
   let f = true;
-  TiempoVuelo = parseInt(document.getElementById("n1").value);
+  TiempoVuelo = document.getElementById("n1").value;
   if (isNaN(TiempoVuelo)) {
     alert("Ingrese el Tiempo de Vuelo");
     document.getElementById("n1").value = "";
@@ -17,7 +17,7 @@ function readNums6() {
       f = false;
     }
   }
-  TiempoTranscurrido = parseInt(document.getElementById("n2").value);
+  TiempoTranscurrido = document.getElementById("n2").value;
   if (isNaN(TiempoTranscurrido)) {
     alert("Ingrese el Tiempo Transcurrido");
     document.getElementById("n2").value = "";
@@ -25,7 +25,7 @@ function readNums6() {
   } else {
     if (TiempoTranscurrido < 0 || TiempoTranscurrido == "-0") {
       alert("El Tiempo Transcurrido debe ser positivo");
-      document.getElementById("n1").value = "";
+      document.getElementById("n2").value = "";
       f = false;
     }
   }
@@ -52,7 +52,7 @@ function calcularDuracionVuelo() {
   const minutos = duracionTotal % 60;
   const segundos = minutos * 60;
 
-  return `Horas: ${horas}, Minutos: ${minutos}, Segundos: ${segundos}`;
+  return `Horas: ${horas}, Minutos: ${minutos}, Segundos: ${segundos.toFixed(2)}`;
 }
 
 function ej6() {
@@ -243,9 +243,9 @@ function ej7() {
       const r2 = raices[1];
       document.getElementById(
         "ans"
-      ).innerHTML = `Las raíces son: ${r1} y ${r2}`;
+      ).innerHTML = `Las raíces son: ${r1.toFixed(2)} y ${r2.toFixed(2)}`;
     } else {
-      document.getElementById("ans").innerHTML = `La raíz es: ${raices}`;
+      document.getElementById("ans").innerHTML = `La raíz es: ${raices.toFixed(2)}`;
     }
   }
 }

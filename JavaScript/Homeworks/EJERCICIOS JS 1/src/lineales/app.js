@@ -10,7 +10,7 @@ function readNums() {
   if (isNaN(alturaPoste)) {
     alert("Ingrese una altura");
   } else {
-    if (alturaPoste < 0) {
+    if (alturaPoste < 0 || alturaPoste == "-0") {
       alert("La altura debe ser positiva");
       document.getElementById("n1").value = "";
       f = false;
@@ -20,7 +20,7 @@ function readNums() {
   if (isNaN(largoSombra)) {
     alert("Ingrese el largo de la sombra");
   } else {
-    if (largoSombra < 0) {
+    if (largoSombra < 0 || largoSombra == "-0") {
       alert("El largo de la sombra debe ser positivo");
       document.getElementById("n2").value = "";
       f = false;
@@ -125,7 +125,7 @@ function calcularTiempo(segundos) {
   let minutos = Math.floor(segundos / 60); // Obtener el número de minutos
   let segundosRestantes = segundos % 60; // Obtener los segundos restantes
 
-  return `Días: ${dias}, Horas: ${horas}, Minutos: ${minutos}, Segundos: ${segundosRestantes}`;
+  return `Días: ${dias}, Horas: ${horas}, Minutos: ${minutos}, Segundos: ${segundosRestantes.toFixed(2)}`;
 }
 
 function ej3() {

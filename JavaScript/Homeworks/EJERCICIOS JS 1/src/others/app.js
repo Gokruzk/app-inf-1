@@ -1,3 +1,8 @@
+let cont = 0;
+let rss = [];
+let newChart = null;
+let isRecording = false;
+
 function adaptarAnchoInput() {
   const myInput = document.getElementById("n0");
   const input = myInput.shadowRoot.querySelector("input");
@@ -24,8 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //Implementar reconocimiento de voz
-
-let isRecording = false;
 
 function record() {
   const recognition = new webkitSpeechRecognition();
@@ -203,13 +206,13 @@ function colors(deg) {
 }
 
 resetButton.addEventListener("click", () => {
-  const ans = document.getElementById("ans")
-  ans.innerHTML = ""
+  const ans = document.getElementById("ans");
+  ans.innerHTML = "";
   roulette.style.transform = "rotate(0deg)";
   roulette.style.transitionDuration = "2s";
   spinButton.style.display = "inline-block";
   resetButton.style.display = "none";
-  cleanInput()
+  cleanInput();
 });
 
 // 14. Un laboratorio de Física de la atmósfera trabajan N investigadores.
@@ -355,25 +358,24 @@ function readNums2() {
     mediaMediciones: m,
     cantMediciones: cont,
   };
+  if (f) {
+  }
   return { f, obj };
 }
 
-let cont = 0;
-let rss = [];
-// let lab = [];
-
 function exe1() {
-  if (readNums2().f) {
-    let rs = readNums2().obj;
-
-    const existe = rss.find((element) => element.name === rs.name);
+  const { f, obj } = readNums2();
+  if (f) {
+    let rs = obj;
+    let existe = rss.find((element) => element.name === rs.name);
     if (existe) alert("El investigador ya existe");
-    else rss.push(rs);
-
-    generarTabla(rss);
-    showBtn("temp");
-    showBtn("graph");
-    showField("field");
+    else {
+      rss.push(rs);
+      generarTabla(rss);
+      showField("field");
+      showBtn("temp");
+      showBtn("graph");
+    }
   }
 }
 
@@ -475,7 +477,7 @@ function generarTabla2(datos) {
 }
 
 // gráfico de barras
-let newChart = null;
+
 function graph() {
   const div = document.getElementById("cnv");
   div.style.display = "flex";
