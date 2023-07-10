@@ -284,7 +284,7 @@ function calcMonto(kms) {
     if (kms <= 1000) {
       monto = TARIFA + EXCESO_300 * (kms - 300);
     } else {
-      monto = TARIFA + EXCESO_1000 * (kms - 300);
+      monto = TARIFA + EXCESO_1000 * (kms - 1000) + EXCESO_300 * 700   ;
     }
   } else {
     monto = TARIFA;

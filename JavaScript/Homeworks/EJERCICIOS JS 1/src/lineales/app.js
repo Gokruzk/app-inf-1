@@ -2,7 +2,7 @@
 //       proyectada sobre la acera(s), a una hora determinada del día, haga un
 //       programa que calcule e imprima (grados, minutos y segundos), el ángulo de
 //       incidencia del sol en ese momento.
-let alturaPoste, largoSombra, hora;
+let alturaPoste, largoSombra;
 
 function readNums() {
   let f = true;
@@ -26,39 +26,25 @@ function readNums() {
       f = false;
     }
   }
-  hora = document.getElementById("n3").value;
-  if (!hora || hora.length !== 5 || hora[2] !== ":") {
-    alert("Ingrese una hora válida en formato HH:MM");
-    f = false;
-  }
   return f;
 }
 
-function calcularAnguloIncidencia(alturaPoste, largoSombra, hora, minutos) {
-  // Convertir la hora y los minutos a un ángulo en radianes
-  let anguloHora = ((hora + minutos / 60) / 24) * Math.PI * 2 - Math.PI / 2;
-
-  // Calcular el ángulo de incidencia del sol
-  let anguloIncidencia = Math.atan(
-    largoSombra / (alturaPoste + largoSombra * Math.tan(anguloHora))
-  );
-
-  // Convertir el ángulo de radianes a grados
-  let anguloIncidenciaGrados = (anguloIncidencia * 180) / Math.PI;
-
-  return `El ángulo de incidencia del sol es: ${anguloIncidenciaGrados} grados`;
+function calcularAnguloIncidencia(alturaPoste, largoSombra) {
+  let angRad = Math.atan(alturaPoste / largoSombra);
+  let angGrad = angRad * (180 / Math.PI);
+  let grad = Math.floor(angGrad);
+  let mins = Math.floor((angGrad - grad) * 60);
+  let seg = Math.round(((angGrad - grad) * 60 - mins) * 60);
+  return `El ángulo de incidencia del sol es: ${Math.floor(
+    angGrad
+  )}° grados, Minutos: ${mins}', Segundos: ${seg}''`;
 }
 
 function ej1() {
   if (readNums()) {
-    let partesHora = hora.split(":");
-    let horaInt = parseInt(partesHora[0]);
-    let minutos = parseInt(partesHora[1]);
     document.getElementById("ans").innerHTML = calcularAnguloIncidencia(
       alturaPoste,
-      largoSombra,
-      horaInt,
-      minutos
+      largoSombra
     );
   }
 }
@@ -238,7 +224,7 @@ function readNums5() {
 }
 
 function interesFinal() {
-  return CapitalInicial + CapitalInicial * TasaInteres * Tiempo;
+  return CapitalInicial * (1 + (TasaInteres / 100) * Tiempo);
 }
 
 function ej5() {
