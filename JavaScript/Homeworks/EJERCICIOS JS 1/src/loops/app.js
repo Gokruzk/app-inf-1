@@ -26,6 +26,10 @@ const readNums1 = () => {
       alert("Ingrese datos positivos y mayor que 0");
       input.value = "";
       f = false;
+    } else if (n >= 13) {
+      alert("Ingrese un número menor a 13");
+      input.value = "";
+      f = false;
     }
   }
   return { f, n };
@@ -33,6 +37,7 @@ const readNums1 = () => {
 
 const exe = () => {
   const result = document.getElementById("sets");
+  result.textContent = "";
   const { f, n } = readNums1();
   if (f) {
     showCard();
@@ -41,6 +46,7 @@ const exe = () => {
       numbers.push(i);
     }
     subSets(numbers, [], result);
+    adaptarCard(n);
   }
 };
 
@@ -63,6 +69,17 @@ const refresh = () => {
   input.value = "";
   hideCard();
 };
+
+function adaptarCard(n) {
+  const p = document.getElementById("sets");
+  const card = document.getElementById("card");
+  const texto = p.textContent;
+  let longitudTexto = texto.length;
+  if (n > 5) {
+    longitudTexto /= 2; // Ajusta el factor de escala según tus necesidades
+  }
+  card.style.height = `${longitudTexto}px`;
+}
 
 const subSets = (numbers, subset, result) => {
   if (subset.length > 0) result.innerHTML += "[" + subset.join(" ") + "] ";

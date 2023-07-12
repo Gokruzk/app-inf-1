@@ -31,24 +31,24 @@ function readNums6() {
   return { f, TiempoVuelo, TiempoTranscurrido };
 }
 
-function faseVuelo(t) {
+function faseVuelo(t, n) {
   const despegue = 10;
   if (t < despegue) {
-    return "El avión está en la fase de despegue.";
-  } else if (t < despegue + TiempoVuelo) {
-    return "El avión está en vuelo estable.";
+    return "El avión está despegando.";
+  } else if (t < despegue + n) {
+    return "El avión está volando.";
   } else {
-    return "El avión está en la fase de aterrizaje.";
+    return "El avión está aterrizando.";
   }
 }
 
 function calcularDuracionVuelo(n) {
   const despegue = 10;
   const aterrizaje = 15;
-  const duracionTotal = despegue + n + aterrizaje;
+  const total = despegue + n + aterrizaje / 60;
 
-  const horas = Math.floor(duracionTotal / 60);
-  const minutos = duracionTotal % 60;
+  const horas = Math.floor(total / 60);
+  const minutos = total % 60;
   const segundos = minutos * 60;
 
   return `Horas: ${horas}, Minutos: ${minutos}, Segundos: ${segundos.toFixed(
@@ -60,8 +60,11 @@ function ej6() {
   const { f, TiempoVuelo, TiempoTranscurrido } = readNums6();
   if (f) {
     document.getElementById("ans").innerHTML = `${faseVuelo(
-      TiempoTranscurrido
-    )} \n La duración del vuelo es: ${calcularDuracionVuelo(TiempoVuelo)}`;
+      TiempoTranscurrido,
+      TiempoVuelo
+    )}
+    \n La duración del vuelo es: ${calcularDuracionVuelo(TiempoVuelo)}
+    `;
   }
 }
 
