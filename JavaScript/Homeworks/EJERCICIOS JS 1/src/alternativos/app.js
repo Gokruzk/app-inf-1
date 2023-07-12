@@ -5,66 +5,82 @@ function readNums6() {
   let TiempoVuelo, TiempoTranscurrido;
   let f = true;
   TiempoVuelo = document.getElementById("n1").value;
-  if (isNaN(TiempoVuelo)) {
-    alert("Ingrese el Tiempo de Vuelo");
+  if (TiempoVuelo >= 1140) {
+    alert("No existe un vuelo con ese tiempo");
     document.getElementById("n1").value = "";
     f = false;
   } else {
-    if (TiempoVuelo < 0 || TiempoVuelo == "-0") {
-      alert("El Tiempo de Vuelo debe ser positivo");
+    if (isNaN(TiempoVuelo)) {
+      alert("Ingrese el Tiempo de Vuelo");
       document.getElementById("n1").value = "";
       f = false;
+    } else {
+      if (TiempoVuelo < 0 || TiempoVuelo == "-0") {
+        alert("El Tiempo de Vuelo debe ser positivo");
+        document.getElementById("n1").value = "";
+        f = false;
+      }
     }
-  }
-  TiempoTranscurrido = document.getElementById("n2").value;
-  if (isNaN(TiempoTranscurrido)) {
-    alert("Ingrese el Tiempo Transcurrido");
-    document.getElementById("n2").value = "";
-    f = false;
-  } else {
-    if (TiempoTranscurrido < 0 || TiempoTranscurrido == "-0") {
-      alert("El Tiempo Transcurrido debe ser positivo");
+    TiempoTranscurrido = document.getElementById("n2").value;
+    if (isNaN(TiempoTranscurrido)) {
+      alert("Ingrese el Tiempo Transcurrido");
       document.getElementById("n2").value = "";
       f = false;
+    } else {
+      if (TiempoTranscurrido < 0 || TiempoTranscurrido == "-0") {
+        alert("El Tiempo Transcurrido debe ser positivo");
+        document.getElementById("n2").value = "";
+        f = false;
+      }
     }
   }
   return { f, TiempoVuelo, TiempoTranscurrido };
 }
 
-function faseVuelo(t, n) {
-  const despegue = 10;
-  if (t < despegue) {
-    return "El avión está despegando.";
-  } else if (t < despegue + n) {
-    return "El avión está volando.";
+function flightPhase(t, n) {
+  const mIni = 10;
+  const mFin = 15 / 60;
+  let phase = "";
+  // The different phases of flight
+  const phases = ["despegando", "volando", "aterrizando", "en tierra"];
+
+  // The total time of the flight
+  const totalTime = n + mIni;
+
+  // The current phase of flight
+  if (t > totalTime + mFin) {
+    phase = phases[3];
   } else {
-    return "El avión está aterrizando.";
+    if (t == 0) {
+      phase = phases[3];
+    } else if (t <= mIni) {
+      phase = phases[0];
+    } else if (t >= n && t <= totalTime) {
+      phase = phases[2];
+    } else {
+      phase = phases[1];
+    }
   }
-}
 
-function calcularDuracionVuelo(n) {
-  const despegue = 10;
-  const aterrizaje = 15;
-  const total = despegue + n + aterrizaje / 60;
+  //duración del vuelo
+  const duration = {
+    hours: Math.floor(t / 60),
+    minutes: Math.floor(t % 60) + 10,
+    seconds: (t % 60) + 15 / 60,
+  };
 
-  const horas = Math.floor(total / 60);
-  const minutos = total % 60;
-  const segundos = minutos * 60;
-
-  return `Horas: ${horas}, Minutos: ${minutos}, Segundos: ${segundos.toFixed(
-    2
-  )}`;
+  return { phase, duration };
 }
 
 function ej6() {
+  document.getElementById("ans").innerHTML = "";
   const { f, TiempoVuelo, TiempoTranscurrido } = readNums6();
+  const { phase, duration } = flightPhase(TiempoTranscurrido, TiempoVuelo);
   if (f) {
-    document.getElementById("ans").innerHTML = `${faseVuelo(
-      TiempoTranscurrido,
-      TiempoVuelo
-    )}
-    \n La duración del vuelo es: ${calcularDuracionVuelo(TiempoVuelo)}
-    `;
+    document.getElementById("ans").innerHTML = `El avión está ${phase} \n
+    Horas: ${duration.hours}, Minutos: ${
+      duration.minutes
+    }, Segundos: ${duration.seconds.toFixed(2)}`;
   }
 }
 
