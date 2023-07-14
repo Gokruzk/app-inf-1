@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <label for="n1">1.</label>
+        <input id="n1" type="text" />
+        <button type="submit" onclick="emptyInput()">Enviar</button>
+      </form>
+      <form action="">
+        <label for="n2">2.</label>
+        <input id="n2" type="text" />
+        <button type="submit" onclick="notFloats()">No decimales</button>
+      </form>
+      <form action="">
+        <label for="n3">3.</label>
+        <input id="n3" type="text" />
+        <button type="submit" onclick="onlyUppercase()">Solo mayúsculas</button>
+      </form>
+      <form action="">
+        <label for="n4">4.</label>
+        <input id="n4" type="text" />
+        <button type="submit" onclick="rangeNums()">Rango 0 a 10</button>
+      </form>
+      <form action="">
+        <label for="n5">5.</label>
+        <input id="n5" type="text" />
+        <button type="submit" onclick="validarCed()">Validar cédula</button>
+      </form>
+    </div>
+    <a style="padding-top: 30px" href="index.html">ATRÁS</a>
+  </body>
+  <script src="app.js"></script>
+</html>
