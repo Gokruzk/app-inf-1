@@ -41,7 +41,7 @@ function onlyUppercase() {
       alert("No ingrese números");
     } else {
       let b = a.toUpperCase();
-      a === b ? alert("Enviado") : alert("Ingrese una palabra en mayúsculas");
+      a === b ? alert("Enviado") : alert("Ingrese solo mayúsculas");
     }
   }
 }
@@ -63,31 +63,34 @@ function rangeNums() {
 function validarCed() {
   const cedula = document.getElementById("n5").value;
   // Verificar que la cédula tenga 10 dígitos
-  if (cedula.length != 10) {
-    alert("La cédula no puede tener más de 10 dígitos");
+  if (emptyInput("n5")) {
   } else {
-    // Convertir la cédula en un array de dígitos
-    const digitos = cedula.split("").map(Number);
+    if (cedula.length != 10) {
+      alert("La cédula debe tener 10 dígitos");
+    } else {
+      // Convertir la cédula en un array de dígitos
+      const digitos = cedula.split("").map(Number);
 
-    // Paso 2: Multiplicar por 2 los dígitos en posiciones pares
-    for (let i = 0; i < digitos.length; i++) {
-      if (i % 2 === 0) {
-        digitos[i] *= 2;
-        if (digitos[i] >= 10) {
-          digitos[i] -= 9;
+      // Paso 2: Multiplicar por 2 los dígitos en posiciones pares
+      for (let i = 0; i < digitos.length; i++) {
+        if (i % 2 === 0) {
+          digitos[i] *= 2;
+          if (digitos[i] >= 10) {
+            digitos[i] -= 9;
+          }
         }
       }
+
+      // Paso 4: Sumar todos los dígitos
+      let sum = 0;
+      digitos.forEach((x) => {
+        sum += x;
+      });
+
+      // Paso 5: Verificar si la suma total termina en cero
+      sum % 10 === 0
+        ? alert("La cédula es válida")
+        : alert("La cédula no es válida");
     }
-
-    // Paso 4: Sumar todos los dígitos
-    let sumaTotal = 0;
-    digitos.forEach((x) => {
-      sumaTotal += x;
-    });
-
-    // Paso 5: Verificar si la suma total termina en cero
-    sumaTotal % 10 === 0
-      ? alert("La cédula es válida")
-      : alert("La cédula no es válida");
   }
 }
