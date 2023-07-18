@@ -388,3 +388,38 @@ function pascalTriangle() {
     setHeightCard(rows);
   }
 }
+
+function cProp() {
+  const result = document.getElementById("sets");
+  for (let i = 12; i < 100; i++) {
+    for (let j = i + 1; j < 100; j++) {
+      result.innerHTML += `${i * j}`;
+      if (j < 99) {
+        result.innerHTML += `, `;
+      }
+    }
+    i = separarCifras(i);
+  }
+  showCard();
+  adaptarCard(20);
+}
+
+function separarCifras(numero) {
+  if (typeof numero !== "number" || !Number.isInteger(numero) || numero < 0) {
+    throw new Error("Por favor, ingresa un número entero positivo.");
+  }
+
+  const cifras = [];
+  const numeroStr = String(numero);
+
+  for (let i = 0; i < numeroStr.length; i++) {
+    cifras.push(Number(numeroStr.charAt(i)));
+  }
+
+  return cifras;
+}
+
+function cNums(i) {
+  let cifr = separarCifras(i);
+  return cifr[1] * 10 + cifr[0];
+}
