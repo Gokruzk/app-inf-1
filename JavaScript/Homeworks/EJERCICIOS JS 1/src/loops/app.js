@@ -315,13 +315,14 @@ function esPrimo(n) {
 function showResult(numeros) {
   const result = document.getElementById("sets");
   showCard();
-  let msj;
+  let msj = "";
   if (numeros.length > 0) {
     let numerosHTML = "";
     numeros.forEach((numero) => {
       numerosHTML += numero + ", ";
       let divisores = getDiv(numero);
-      msj += "" + numero + ": {" + divisores.join(", ") + "}";
+      console.log(numero);
+      msj += `${numero}: (${divisores.join(", ")}) </br>`;
     });
     result.innerHTML = msj;
   } else {
@@ -390,18 +391,24 @@ function pascalTriangle() {
 }
 
 function cProp() {
+  let nums = {
+    f1: [],
+    f2: [],
+  };
+  const { f1, f2 } = nums;
   const result = document.getElementById("sets");
-  for (let i = 12; i < 100; i++) {
-    for (let j = i + 1; j < 100; j++) {
-      result.innerHTML += `${i * j}`;
-      if (j < 99) {
-        result.innerHTML += `, `;
+  for (let i = 11; i < 100; i++) {
+    for (let j = i; j < 100; j++) {
+      let n = i * j;
+      let k = voltearNum(i);
+      let l = voltearNum(j);
+      let m = k * l;
+      if (n == m) {
+        result.innerHTML += `(${i} * ${j} = ${n}) = (${k} * ${l} = ${m}) </br>`;
       }
     }
-    i = separarCifras(i);
   }
   showCard();
-  adaptarCard(20);
 }
 
 function separarCifras(numero) {
@@ -419,7 +426,7 @@ function separarCifras(numero) {
   return cifras;
 }
 
-function cNums(i) {
+function voltearNum(i) {
   let cifr = separarCifras(i);
   return cifr[1] * 10 + cifr[0];
 }

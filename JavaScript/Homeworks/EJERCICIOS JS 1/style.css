@@ -200,11 +200,16 @@ button:active {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 200px;
+
   width: 100%;
   border-radius: 10px;
   border: 2px solid rgb(255, 255, 255);
   background-color: transparent;
+}
+
+#set {
+  width: 50%;
+  height: 100px;
 }
 
 .card a {
