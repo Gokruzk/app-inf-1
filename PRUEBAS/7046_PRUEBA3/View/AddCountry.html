@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Pais</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="links">
+        <a href="../View/Menu.html">REGRESAR</a>
+    </div>
+    <div class="content">
+        <div class="title">
+            <h1>AGREGAR PAÍS</h1>
+        </div>
+        <form class="form" action="../Model/insert.php" method="POST">
+            <label for="nombre">
+                Nombre de pais
+            </label>
+            <input id="nombre" name="nombre" type="text">
+            <label for="idioma">
+                Idioma oficial
+            </label>
+            <input id="idioma" name="idioma" type="text">
+            <label for="indicacion">
+                Indiciación
+            </label>
+            <select name="indicacion" id="indicacion">
+                <option value="NO ALINEADO">NO ALINEADO</option>
+                <option value="OTAN">OTAN</option>
+                <option value="UNION EIROPEA">UNION EIROPEA</option>
+            </select>
+            <button type="submit">AGREGAR PAÍS</button>
+        </form>
+    </div>
+</body>
+
+</html>
