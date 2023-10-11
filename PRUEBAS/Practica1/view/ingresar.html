@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Pagina web</title>
+     
+      <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../css/keyframes.css">
+      <link rel="stylesheet" href="../css/banner.css">
+      <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+      <header>
+          
+      </header>
+  <!-- seccion central -->
+      <section>
+          <div class="ewk_cont_banner">
+              <!-- lo anterior coloca un fondo arq1 -->
+              <div class="ewk_sobra">
+                  <h1>Examen de Tercer Parcial</h1>
+                   <p>Ingrese los datos</p>
+                  <br>
+                  <hr/>
+                    <div class="ewk_cont_banner_link">
+                        <form action="../model/ingresar.php" method="post">
+                            <center>
+                                
+                                <label for="">NOMBRE PAÍS:</label><br>
+                                <input type="text" name="nombre" id="nombre" minlength="1" maxlength="100" required>
+                                <br>
+                                <br>
+                                <label for="">ALINEACIÓN:</label><br>
+                                <input type="text" name="alineacion" id="alineacion" minlength="1" maxlength="100">
+                                <br>
+                                <br>
+                                <a href="../index.html">
+                                    <input type="submit" value="GUARDAR" class="btn btn-outline-success" >
+                                </a>
+                                <br>
+                                <br>
+                                <a href="../index.html" class="btn btn-success">Regresar</a>
+                            </center>
+                        </form>
+                    </div>
+                    
+              </div>
+              
+      </section>
+      <script src="../bootstrap/js/jquery-3.2.1.min.js"></script>
+      <script src="../bootstrap/js/bootstrap.min.js"></script>
+      
+  <footer>
+      
+  </footer>
+  </body>
+</html>
